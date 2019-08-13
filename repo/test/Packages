@@ -1,0 +1,20 @@
+Package: com.michael.impactor
+Version: 0.9.43
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: firmware (>= 7.1), firmware (<= 10.3.3)
+Breaks: com.saurik.patych (<< 1.0.1)
+Filename: ./debs/com.michael.impactor_0.9.43_iphoneos-arm.deb
+Size: 519462
+MD5sum: 695bfcc91c2434041ebda83f8e120cc8
+SHA1: ad4d0f9fdb5b5dbf9c0f06e2caf9bda20afc3426
+SHA256: 1ce6ef1e457dbee3011a064545727c5b0fd790b3ddbbd45cad50669b6f1b162f
+Section: Utilities
+Priority: optional
+Description: specific utility to unjailbreak most devices, support include iOS10.3-iOS10.3.3.
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.impactor/
+Icon: file:///Applications/Eraser.app/Icon-60.png
+Name: Cydia Eraser
+
