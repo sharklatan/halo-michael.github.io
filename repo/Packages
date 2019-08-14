@@ -31,6 +31,22 @@ Description: Fix app network error for China models.
 Author: laoyur
 Name: Network Fixer
 
+Package: com.michael.NetworkMagician
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: com.bingner.plutil, firmware (>= 10.0), firmware (<= 12.4)
+Filename: ./debs/com.michael.NetworkMagician-0.1.0_iphoneos-arm.deb
+Size: 1452
+MD5sum: af832f4af43aaf731aa10ec285d42b7c
+SHA1: 2a3d81e053f39005e0e23971dcf7f991db3583a6
+SHA256: 4568f5e4bbc41584e1d309f79181dd105178ddd79119ef3e1430e68583cd5873
+Section: Tweaks
+Description: Customize/restore the display text of the 2G 3G 4G network.
+Author: halo_michael <yc992147156@me.com>
+Name: Network Magician
+Sponsor: halo_michael <yc992147156@me.com>
+
 Package: com.michael.TimeMachine
 Version: 0.5.0
 Architecture: iphoneos-arm
