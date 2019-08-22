@@ -138,36 +138,20 @@ Description: Fix ldrestart on unc0ver with sandbox apps
 Author: halo_michael <yc992147156@me.com>
 Name: FixLdrestart(Unc0ver)
 
-Package: com.michael.fontsxyhwkt
-Version: 1.3
+Package: com.michael.fontshwkt-ithemer
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
-Depends: firmware (>= 11)
-Filename: ./debs/XinYu-HuaWenKaiTi-1.3.deb
-Size: 66411932
-MD5sum: 6721058ef576898af74041669d17c195
-SHA1: 4e667a0cda1fec85908b92522c42a7e9270a7bf3
-SHA256: d146be4d3ab2ea60ba914a3823ac464fc724759ce4a6c7fcff66fdd2cc8329e3
+Depends: firmware (>= 10.0), net.dodtweaks.ithemer
+Filename: ./debs/com.michael.fontshwkt-ithemer_1.0_iphoneos-arm.deb
+Size: 77938124
+MD5sum: a1a6ea2c7259aa03abc3397ce86c178c
+SHA1: 0809b424fcfe02f67c53b5bf8c8c386bc144761e
+SHA256: 8e3ad9a5c6e62c901eeb88a7a97bcd856df53b58844c68850cad32c2a9957cf5
 Section: Fonts
-Description: 心雨字体华文楷体，请关注字体作者公众号“字由心雨”
+Description: 心雨华文楷体，使用iThemer插件加载，请关注字体作者公众号“字由心雨”
 Author: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
-Name: 心雨华文楷体
-Sponsor: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
-
-Package: com.michael.fontsxyhwkt-thick
-Version: 1.3-thick
-Architecture: iphoneos-arm
-Maintainer: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
-Depends: firmware (>= 11)
-Filename: ./debs/XinYu-HuaWenKaiTi-Thick-1.3.deb
-Size: 66411992
-MD5sum: c87e5f197dc5fd1b93ff6a76d1774a3a
-SHA1: 9094fde2f29a7e7559cf0d931242cd91aabc8db2
-SHA256: 76355329cff6eb55ff94b50918d0c0cb3731ccb0f4b6c37c0202d49514668aed
-Section: Fonts
-Description: 心雨字体华文楷体英文加粗版，请关注字体作者公众号“字由心雨”
-Author: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
-Name: 心雨华文楷体英文加粗版
+Name: 心雨华文楷体-iThemer
 Sponsor: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
 
 Package: com.michael.handprint
