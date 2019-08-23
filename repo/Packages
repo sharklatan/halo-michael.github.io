@@ -170,15 +170,15 @@ Author: Halo_Michael <yc992147156@me.com>
 Name: GlobalizeFix
 
 Package: com.michael.handprint
-Version: 0.1.1
+Version: 0.1.2
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
 Depends: firmware (>= 11.0), firmware (<= 11.4.1)|netskao.2436fix, com.bingner.plutil
-Filename: ./debs/com.michael.handprint_0.1.1_iphoneos-arm.deb
-Size: 1264
-MD5sum: db6d933fd0a902dedb676feef45d25b9
-SHA1: 854f5632fbd20612dada602a47c977596287eb86
-SHA256: 74ea2d94e347d5350ff56ead42fcad2c57a39cffad73c9bc4cc867eb1971c184
+Filename: ./debs/com.michael.handprint_0.1.2_iphoneos-arm.deb
+Size: 1286
+MD5sum: e7877efae7de6f60dee2ddeaf1cf4af8
+SHA1: 97286f11c6a1b07068989a9828c57ac135979df6
+SHA256: ac2a0e2afbcfb9ac6a554b6cc9bc6c77f93a50656528ba10747ced896300f9eb
 Section: Tweaks
 Description: Enable native X gestures for your iPhone!
 Author: Halo_Michael <yc992147156@me.com>
