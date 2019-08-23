@@ -154,16 +154,31 @@ Author: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
 Name: 心雨华文楷体-iThemer
 Sponsor: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
 
-Package: com.michael.handprint
-Version: 0.0.1
+Package: com.michael.globalizefix
+Version: 0.1.0
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
-Depends: firmware (>= 11.0), firmware (<= 11.4.1), com.bingner.plutil
-Filename: ./debs/com.michael.handprint_0.0.1_iphoneos-arm.deb
-Size: 1394
-MD5sum: 43b46a9e114547321ba63ba886a41a22
-SHA1: 35a267fe8c16abfaf700aba621712ff041027c0a
-SHA256: 1da1bae5806f5d76549be53b6d2c7ba03934c6b881917c2a863e3a554664ac99
+Depends: com.parrotgeek.globalize, com.bingner.plutil
+Filename: ./debs/com.michael.globalizefix_0.1.0_iphoneos-arm.deb
+Size: 1066
+MD5sum: 390ee2e984caad3ecaf0cd7c89b4d2c8
+SHA1: 22b7e6747527f99615f7e9e2a78bca32706081ae
+SHA256: c43f45b21f481f4821428dc4fb74cc6e0b630da4d30c4ece624bcf6fd448ad14
+Section: Tweaks
+Description: Fixed an issue that reboot may caused Globalize lose its effect.
+Author: Halo_Michael <yc992147156@me.com>
+Name: GlobalizeFix
+
+Package: com.michael.handprint
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Halo_Michael <yc992147156@me.com>
+Depends: firmware (>= 11.0), firmware (<= 11.4.1)|netskao.2436fix, com.bingner.plutil
+Filename: ./debs/com.michael.handprint_0.1.0_iphoneos-arm.deb
+Size: 1262
+MD5sum: 11f96b1f00b638ffd50e8bf0e71d9fd9
+SHA1: b174d863b8d64c1cfbe03dcec84e0395bdd419fe
+SHA256: 3b7c5779760cce3c6edd4c8fcd6bd0b9ab025b1100733d4b2aeaa64591202c4a
 Section: Tweaks
 Description: Enable native X gestures for your iPhone!
 Author: Halo_Michael <yc992147156@me.com>
