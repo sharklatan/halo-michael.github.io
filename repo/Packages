@@ -123,6 +123,20 @@ Description: Turbo Boost Your Apple!
 Author: Halo_Michael <yc992147156@me.com>
 Name: Apple Turbo Boost
 
+Package: com.michael.dimentio
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Halo_Michael <yc992147156@me.com>
+Filename: ./debs/com.michael.dimentio_0.1.0_iphoneos-arm.deb
+Size: 12344
+MD5sum: 979a25ee43c0b29eb3c82b9c0dd25568
+SHA1: b2c5cb571d5e27c601202db838fb7ad8ec6f8f25
+SHA256: dd95015798f01cb217acca38ceb76fd8dd52c464d7588e7447778d8cb52b39db
+Section: System
+Description: PoC tool for setting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
+Author: 0x7ff
+Name: dimentio
+
 Package: com.michael.fixldrestart
 Version: 0.0.2
 Architecture: iphoneos-arm
