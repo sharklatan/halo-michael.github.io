@@ -42,8 +42,11 @@
 	</block>
 	<block>
 		<p><strong>在A12 (12.1.3~12.4)上通过Unc0ver固定generator</strong></p>
-		<p>1. 通过ssh运行此命令</p>
-		<p>sh -c "$(wget https://halo-michael.github.io/dimentio/dimentio-installer.sh -O -)"</p>
+		<p>1. 从这里下载dimentio：<a href="../dimentio/dimentio">https://halo-michael.github.io/dimentio/dimentio</a></p>
+		<p>2. 复制/scp dimentio至/jb/usr/bin</p>
+		<p>3. 授予dimentio可执行权限</p>
+		<p>chmod 0755 /jb/usr/bin/dimentio</p>
+		<p>chown root:wheel /jb/usr/bin/dimentio</p>
 		<p>2. 像这样使用dimentio</p>
 		<p>dimentio 0x1111111111111111</p>
 		<a href="../dimentio/dimentio.png">如果你仍不清楚该怎么做，单击此处以预览此命令。</a>
