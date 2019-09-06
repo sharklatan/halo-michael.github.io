@@ -282,15 +282,15 @@ Author: halo_michael <yc992147156@me.com>
 Name: Neofetch Installer
 
 Package: com.michael.resolutionsetter
-Version: 0.2.3
+Version: 0.2.4
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: firmware (>= 9.0), coreutils, com.bingner.plutil
-Filename: ./debs/com.michael.resolutionsetter_0.2.3.deb
-Size: 1730
-MD5sum: 5ec88d974e2601c56c5e229cecf20a36
-SHA1: e4fd382c1c1f3063b156024864ca412e84ec5c42
-SHA256: 15887fc3945900ad664062a556ea738341f611d0975fcf8456fb4c421f3519cc
+Filename: ./debs/com.michael.resolutionsetter_0.2.4_iphoneos-arm.deb
+Size: 1738
+MD5sum: 80e0236bd977440355dc8e5a2f1e4222
+SHA1: 623a2f24d5bd22f744485c0469bea6108790e9ee
+SHA256: 8f3c57918a7f7a90c063529b973180eb2ccbbd6bbb939d00a223e6c977a781e0
 Section: Tweaks
 Description: Change your device resolution via Terminal! Usage: res|resolution [height] [width] [-w] [-y]. Please type "res|resolution -h|--help" on Terminal to get more messages.
 Author: halo_michael <yc992147156@me.com>
