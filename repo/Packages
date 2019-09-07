@@ -32,15 +32,15 @@ Author: laoyur
 Name: Network Fixer
 
 Package: com.michael.NetworkMagician
-Version: 0.1.0
+Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: com.bingner.plutil, firmware (>= 10.0), firmware (<= 12.4)
-Filename: ./debs/com.michael.NetworkMagician-0.1.0_iphoneos-arm.deb
-Size: 1452
-MD5sum: af832f4af43aaf731aa10ec285d42b7c
-SHA1: 2a3d81e053f39005e0e23971dcf7f991db3583a6
-SHA256: 4568f5e4bbc41584e1d309f79181dd105178ddd79119ef3e1430e68583cd5873
+Filename: ./debs/com.michael.NetworkMagician-0.1.1_iphoneos-arm.deb
+Size: 1490
+MD5sum: 7dad51ec278170ed6725a0c1a6d56523
+SHA1: 66b1644362d50937984d7042531a0514b2bd6ada
+SHA256: 1110f03891b8511a9710c344ae209f3dc429096cb827390d5d239d836a6ce395
 Section: Tweaks
 Description: Customize/restore the display text of the 2G 3G 4G network.
 Author: halo_michael <yc992147156@me.com>
@@ -282,15 +282,15 @@ Author: halo_michael <yc992147156@me.com>
 Name: Neofetch Installer
 
 Package: com.michael.resolutionsetter
-Version: 0.2.4
+Version: 0.2.5
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: firmware (>= 9.0), coreutils, com.bingner.plutil
-Filename: ./debs/com.michael.resolutionsetter_0.2.4_iphoneos-arm.deb
-Size: 1738
-MD5sum: 80e0236bd977440355dc8e5a2f1e4222
-SHA1: 623a2f24d5bd22f744485c0469bea6108790e9ee
-SHA256: 8f3c57918a7f7a90c063529b973180eb2ccbbd6bbb939d00a223e6c977a781e0
+Filename: ./debs/com.michael.resolutionsetter_0.2.5_iphoneos-arm.deb
+Size: 1762
+MD5sum: eb7f01439fe171af7ef0adb690c4d80d
+SHA1: efde2de7820f8751b529af22cc6fec2a1cf90803
+SHA256: 130da70221bd9b6573a43c55f0c3e846c1210866426cd78c44a723ca32aac50b
 Section: Tweaks
 Description: Change your device resolution via Terminal! Usage: res|resolution [height] [width] [-w] [-y]. Please type "res|resolution -h|--help" on Terminal to get more messages.
 Author: halo_michael <yc992147156@me.com>
