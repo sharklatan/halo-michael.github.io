@@ -137,6 +137,20 @@ Description: PoC tool for setting nonce without triggering KPP/KTRR/PAC. (requir
 Author: 0x7ff
 Name: dimentio
 
+Package: com.michael.dimentio
+Version: 0.2.0
+Architecture: iphoneos-arm
+Maintainer: Halo_Michael <yc992147156@me.com>
+Filename: ./debs/com.michael.dimentio_0.2.0_iphoneos-arm.deb
+Size: 12956
+MD5sum: c8449d31d3e6609d1eca04808eaa91e1
+SHA1: b4c76e766f8bbd8511785e035876c6a6ca6db51e
+SHA256: 2ea20b4c57591578dc6fe130b721a5933ee9375d2488acd742ee9ef9b8ad7eb0
+Section: System
+Description: PoC tool for setting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
+Author: 0x7ff
+Name: dimentio
+
 Package: com.michael.fixldrestart
 Version: 0.0.2
 Architecture: iphoneos-arm
