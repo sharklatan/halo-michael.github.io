@@ -92,16 +92,16 @@ Name: TimeMachine on iOS Lite
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.appleilluminator
-Version: 0.3.0
+Version: 0.3.1
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
 Depends: firmware (>= 11.0), com.bingner.plutil
 Conflicts: com.michael.appleturboboost
-Filename: ./debs/com.michael.appleilluminator_0.3.0_iphoneos-arm.deb
+Filename: ./debs/com.michael.appleilluminator_0.3.1_iphoneos-arm.deb
 Size: 35334
-MD5sum: 8dfa6b682ac4e940099eeb09547a0c8b
-SHA1: 0e56a84a61b89d0b13e0b7a5d384a2f4bc68b962
-SHA256: 1aeb03863121fb9dca94d0edcae229720cdd9d21fb73cee17c88822c4e8f4678
+MD5sum: bda7a99dc02d6a5c488d31e3db2c627b
+SHA1: 36f795d6deb4e44e15251dd06c53f751c9643e11
+SHA256: acb308a541d1e4e3955f0d0069847ddc4e94a46fa129d3e75846b5b1e07020a3
 Section: Tweaks
 Description: Illuminate your Apple! Relieve Apple’s overheating Reduces brightness limit. Different from Apple Turbo Boost is, I can make sure it fully works on iOS11!
 Author: Halo_Michael <yc992147156@me.com>
