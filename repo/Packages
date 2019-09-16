@@ -123,6 +123,21 @@ Description: Turbo Boost Your Apple!
 Author: Halo_Michael <yc992147156@me.com>
 Name: Apple Turbo Boost
 
+Package: com.michael.cmcczeppelin
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Halo-Michael <yc992147156@me.com>
+Depends: com.alexzielenski.zeppelin
+Filename: ./debs/com.michael.cmcczeppelin_1.0_iphoneos-arm.deb
+Size: 4148
+MD5sum: cdbe933ea1912755d1fa44fd628d883f
+SHA1: be0f05b35df2d3164e09f2c2da3d1762012f1422
+SHA256: 94bc67308d5bc3448e610c9c07001a3ebaa98c3b49eee92e4a8629988527f1c3
+Section: Addons (Zeppelin)
+Description: Fake CMCC icon for Zeppelin! Requires Zeppelin.
+Author: Halo-Michael <yc992147156@me.com>
+Name: Zeppelin CMCC Icon
+
 Package: com.michael.dimentio
 Version: 0.1.0
 Architecture: iphoneos-arm
