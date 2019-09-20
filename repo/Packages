@@ -138,6 +138,21 @@ Description: Fake CMCC icon for Zeppelin! Requires Zeppelin.
 Author: Halo-Michael <yc992147156@me.com>
 Name: Zeppelin CMCC Icon
 
+Package: com.michael.cycripter
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: mobilesubstrate (>= 0.9.6300), cycript
+Filename: ./debs/com.michael.cycripter_0.1.0_iphoneos-arm.deb
+Size: 47720
+MD5sum: 9b6b0c7ebb2214a24ce4868e10e7863c
+SHA1: 8242881601a00cd4cdc09929a289fa8e9a9db2fc
+SHA256: 0e7f6304299e0c48f6c473c060c0480092205afe2e12bf76cdf66eb171763099
+Section: Development
+Description: Tools to make it easier to get cycript to work in chimera, will eventually try and get it to work in earlier versions, but for now 12+ is all that is supported.
+Author: NitoTV
+Name: Cycripter
+
 Package: com.michael.dimentio
 Version: 0.1.0
 Architecture: iphoneos-arm
