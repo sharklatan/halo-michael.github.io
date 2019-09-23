@@ -248,11 +248,12 @@ Version: 0.3.0
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
 Depends: firmware (>= 11.0), firmware (<= 12.4.1), com.bingner.plutil
+Conflicts: netskao.2436fix
 Filename: ./debs/com.michael.handprint_0.3.0_iphoneos-arm.deb
-Size: 6742
-MD5sum: 36fde26efca1002444e9f7e0be91aef6
-SHA1: 216dcf8f9d9c5e5ad38c55386044f4b1ff8f49e2
-SHA256: 6a6e519c7b612ab63d4688f0dacdafbe26c7e981f35c4677fd57ff990fa6b1e7
+Size: 6758
+MD5sum: 750061ada98d2a4201645f976a869285
+SHA1: d8a6b9f7ff540d75d212141c4b9b5bec4ed2374a
+SHA256: a82a658b475c3d0f686f39df6cc99adcd3303fefd631cdc3b3127e52fc164caa
 Section: Tweaks
 Description: Enable native X gestures for your iPhone!
 Author: Halo_Michael <yc992147156@me.com>
