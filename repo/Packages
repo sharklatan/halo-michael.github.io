@@ -399,17 +399,17 @@ Author: pwn20wnd <pwn20wndstuff@gmail.com>
 Name: nonceutil
 
 Package: org.ppsspp.ppsspp-dev-latest
-Version: 0v1.9.1-2-g4b310f01c
+Version: 0v1.9.2
 Architecture: iphoneos-arm
 Maintainer: Henrik Rydgård
 Conflicts: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing, org.ppsspp.ppsspp, org.ppsspp.ppsspp-dev-working
 Replaces: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
 Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
-Filename: ./debs/org.ppsspp.ppsspp-dev-latest_0v1.9.1-2-g4b310f01c_iphoneos-arm.deb
-Size: 14623656
-MD5sum: 01b73a71688c14251018939e5feea023
-SHA1: a8b3014c9cbc6914f3dd5f3da4c9c0aaa615d4a6
-SHA256: d8f07a6135331f651b524426c4a7e4796a30ea3e70491c7bcee802256ec439a9
+Filename: ./debs/org.ppsspp.ppsspp-dev-latest_0v1.9.2_iphoneos-arm.deb
+Size: 14617304
+MD5sum: 34fe5bd685875e2f9aa3af84e5b5a3a9
+SHA1: 9af0822dda0365ad0928d72112823f69a5b7674d
+SHA256: e67ee587bc853dd9c963a9c3fda2aa5079aaa27bf359833c89e22deb5a267964
 Section: Games
 Homepage: https://build.ppsspp.org/
 Description: A PSP emulator
