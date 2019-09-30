@@ -196,36 +196,21 @@ Description: Fix ldrestart on unc0ver with sandbox apps
 Author: halo_michael <yc992147156@me.com>
 Name: FixLdrestart(Unc0ver)
 
-Package: com.michael.fontshwkt-ithemer
-Version: 1.0
+Package: com.michael.fontshwkt-theme
+Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
-Depends: firmware (>= 10.0), net.dodtweaks.ithemer
-Filename: ./debs/com.michael.fontshwkt-ithemer_1.0_iphoneos-arm.deb
-Size: 77938124
-MD5sum: a1a6ea2c7259aa03abc3397ce86c178c
-SHA1: 0809b424fcfe02f67c53b5bf8c8c386bc144761e
-SHA256: 8e3ad9a5c6e62c901eeb88a7a97bcd856df53b58844c68850cad32c2a9957cf5
+Depends: firmware (>= 10.0), com.spark.snowboard, com.spark.snowboard.fonts | net.dodtweaks.ithemer
+Conflicts: com.michael.fontshwkt-ithemer
+Filename: ./debs/com.michael.fontshwkt-theme_1.0.0_iphoneos-arm.deb
+Size: 77870436
+MD5sum: e3089492d7b27cd1a537e1ca3b05bd2a
+SHA1: c0e6b33248216365b82ee31789f08a71e727c638
+SHA256: 042d0c4d01a9c220b4dc41b8adc063dff0369e2b5031231f344a0ea360e911a0
 Section: Fonts
-Description: 心雨华文楷体，使用iThemer插件加载，请关注字体作者公众号“字由心雨”
+Description: 心雨华文楷体主题包，使用SnowBoard或iThemer插件加载，请关注字体作者公众号“字由心雨”
 Author: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
-Name: 心雨华文楷体-iThemer
-Sponsor: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
-
-Package: com.michael.fontshwkt-ithemer
-Version: 1.2.0
-Architecture: iphoneos-arm
-Maintainer: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
-Depends: firmware (>= 10.0), net.dodtweaks.ithemer
-Filename: ./debs/com.michael.fontshwkt-ithemer_1.2.0_iphoneos-arm.deb
-Size: 77870384
-MD5sum: 58c010742c71f3debb63983df3896c4e
-SHA1: ddde94b8d5035931cce337426597c6d728fc7dd3
-SHA256: 256623ad2cb5282da239aeb53e13d041f53a709a01b20b80079da31d743fbcdf
-Section: Fonts
-Description: 心雨华文楷体，使用iThemer插件加载，请关注字体作者公众号“字由心雨”
-Author: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
-Name: 心雨华文楷体-iThemer
+Name: 心雨华文楷体-Theme
 Sponsor: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
 
 Package: com.michael.globalizefix
@@ -379,6 +364,22 @@ Description: A Tool for APFS Snapshot Management; removed disable revent restric
 Tag: role::hacker
 Author: Sam Bingner <snappy@bingner.com>
 Name: Snappy
+
+Package: com.michael.wechatjailbreakhook
+Version: 0.1-3
+Architecture: iphoneos-arm
+Maintainer: Halo_Michael <yc992147156@me.com>
+Installed-Size: 136
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/com.michael.wechatjailbreakhook_0.1-3_iphoneos-arm.deb
+Size: 2518
+MD5sum: b350bc6ed517c8dae182f21bdfa80b47
+SHA1: 1650e16b12a5fcef8dcefb42257adf0da6557799
+SHA256: 640bf8e27a31140747254b816e0d4bc39e4a94c50db1c22cd9591f0172138385
+Section: Tweaks
+Description: Disable WeChat Jailbreak Detection.
+Author: Halo_Michael <yc992147156@me.com>
+Name: WeChatJailbreakHook
 
 Package: nonceutil
 Version: 2.0
