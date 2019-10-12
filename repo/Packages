@@ -196,6 +196,22 @@ Description: Fix ldrestart on unc0ver with sandbox apps
 Author: halo_michael <yc992147156@me.com>
 Name: FixLdrestart(Unc0ver)
 
+Package: com.michael.fontsemoji-theme
+Version: 13.2-beta2
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: firmware (>= 10.0), com.ps.emojiportpe, com.spark.snowboard, com.spark.snowboard.fonts | net.dodtweaks.ithemer
+Filename: ./debs/com.michael.fontsemoji-theme_1.0.0_iphoneos-arm.deb
+Size: 57057104
+MD5sum: 6905177460c066912281cd21dc751f94
+SHA1: d959c11464e19ed3ebb940aaaaf49d80c8fa03d4
+SHA256: d5436db11d468e22752c4d67ae7ea6dbfa0d5ec552cd6d5e95fa0ebe49f28f29
+Section: Fonts
+Description: The newest iOS emoji fonts. depends on EmojiPort and SnowBoard/iThemer.
+Author: Apple.Inc
+Name: Newest iOS Emoji Theme
+Sponsor: halo_michael <yc992147156@me.com>
+
 Package: com.michael.fontshwkt-theme
 Version: 1.0.0
 Architecture: iphoneos-arm
