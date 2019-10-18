@@ -416,77 +416,17 @@ Author: pwn20wnd <pwn20wndstuff@gmail.com>
 Name: nonceutil
 
 Package: org.ppsspp.ppsspp-dev-latest
-Version: 0v1.9.3
+Version: 0v1.9.3-82-g90e91e24b
 Architecture: iphoneos-arm
 Maintainer: Henrik Rydgård
 Conflicts: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing, org.ppsspp.ppsspp, org.ppsspp.ppsspp-dev-working
 Replaces: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
 Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
-Filename: ./debs/org.ppsspp.ppsspp-dev-latest_0v1.9.3_iphoneos-arm.deb
-Size: 14627508
-MD5sum: ca1f4d5a28eb9271ffe3db9086a08541
-SHA1: 52b722fca65736fe2dd739db259394ef9ccaf566
-SHA256: a742252204d7b5e1025b74c0bb7a53268d1294970d85d278af719bd86b80ce4e
-Section: Games
-Homepage: https://build.ppsspp.org/
-Description: A PSP emulator
-Author: Henrik Rydgård
-Depiction: https://cydia.ppsspp.org/?page/org.ppsspp.ppsspp-dev-latest
-Icon: file:///Library/PPSSPPRepoIcons/org.ppsspp.ppsspp-dev-latest.png
-Name: PPSSPP (Dev-Latest)
-
-Package: org.ppsspp.ppsspp-dev-latest
-Version: 0v1.9.3-64-g0b17dd04e
-Architecture: iphoneos-arm
-Maintainer: Henrik Rydgård
-Conflicts: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing, org.ppsspp.ppsspp, org.ppsspp.ppsspp-dev-working
-Replaces: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
-Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
-Filename: ./debs/org.ppsspp.ppsspp-dev-latest_0v1.9.3-64-g0b17dd04e_iphoneos-arm.deb
-Size: 14650072
-MD5sum: 28166c5341b6ab55f3e2a6a2ab6ef5b9
-SHA1: 448f473572817269d80bb46f5c7b2c3cd446637a
-SHA256: 2543458947e70d9a53805501ac3798aa972a540a177c02ccc2ea2ca58f62552c
-Section: Games
-Homepage: https://build.ppsspp.org/
-Description: A PSP emulator
-Author: Henrik Rydgård
-Depiction: https://cydia.ppsspp.org/?page/org.ppsspp.ppsspp-dev-latest
-Icon: file:///Library/PPSSPPRepoIcons/org.ppsspp.ppsspp-dev-latest.png
-Name: PPSSPP (Dev-Latest)
-
-Package: org.ppsspp.ppsspp-dev-latest
-Version: 0v1.9.3-71-g29950c0ad
-Architecture: iphoneos-arm
-Maintainer: Henrik Rydgård
-Conflicts: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing, org.ppsspp.ppsspp, org.ppsspp.ppsspp-dev-working
-Replaces: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
-Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
-Filename: ./debs/org.ppsspp.ppsspp-dev-latest_0v1.9.3-71-g29950c0ad_iphoneos-arm.deb
-Size: 14650488
-MD5sum: 9bae674e1b9d3df25afe66521a4b8780
-SHA1: 6b32f23ebcb80bb42d0466133c48d026cf6497ff
-SHA256: eab9c826a4834487061b5b8a218ff8684247cb14c030c9d5b35c6c5bc7e733d8
-Section: Games
-Homepage: https://build.ppsspp.org/
-Description: A PSP emulator
-Author: Henrik Rydgård
-Depiction: https://cydia.ppsspp.org/?page/org.ppsspp.ppsspp-dev-latest
-Icon: file:///Library/PPSSPPRepoIcons/org.ppsspp.ppsspp-dev-latest.png
-Name: PPSSPP (Dev-Latest)
-
-Package: org.ppsspp.ppsspp-dev-latest
-Version: 0v1.9.3-80-g73bf6098e
-Architecture: iphoneos-arm
-Maintainer: Henrik Rydgård
-Conflicts: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing, org.ppsspp.ppsspp, org.ppsspp.ppsspp-dev-working
-Replaces: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
-Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
-Filename: ./debs/org.ppsspp.ppsspp-dev-latest_0v1.9.3-80-g73bf6098e_iphoneos-arm.deb
-Size: 14654156
-MD5sum: deb1dd4c3d3f1bd655331cbde1d15c41
-SHA1: 10fa221298814c03187742d6db639c90d4dd7fc1
-SHA256: 5a9d850dac5ef9a9ed4b2587d7b4b785c94e1fb0f5aba565cd6bbca57607ac91
+Filename: ./debs/org.ppsspp.ppsspp-dev-latest_0v1.9.3-82-g90e91e24b_iphoneos-arm.deb
+Size: 14651768
+MD5sum: f270e4469a863d503931af28aaf5374e
+SHA1: 6688d894525f73b48c0ed0b3f9859663ab510ebf
+SHA256: 444da48320aee7621e7b8f442cddbc2ff9d2ecea0372c3fda7cb9c58f2f46968
 Section: Games
 Homepage: https://build.ppsspp.org/
 Description: A PSP emulator
