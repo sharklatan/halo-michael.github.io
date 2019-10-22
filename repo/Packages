@@ -397,6 +397,22 @@ Description: Disable WeChat Jailbreak Detection.
 Author: Halo_Michael <yc992147156@me.com>
 Name: WeChatJailbreakHook
 
+Package: com.michael.wenetjailbreakhook
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: Halo_Michael <yc992147156@me.com>
+Installed-Size: 136
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/com.michael.wenetjailbreakhook_0.1-1_iphoneos-arm.deb
+Size: 2416
+MD5sum: fddfd4e5a93598c5e5c7b20588b39dda
+SHA1: b9cac7bbe2cd1c0084e72e68204578e837ce5019
+SHA256: 5e58432b9553ec99883fefe5d18562840eaeeb06ccaa7d4f3dd98fc02ae6f41a
+Section: Tweaks
+Description: Disable WeNet Jailbreak Detection.
+Author: Halo_Michael <yc992147156@me.com>
+Name: WeNetJailbreakHook
+
 Package: nonceutil
 Version: 2.0
 Architecture: iphoneos-arm
