@@ -178,15 +178,15 @@ Author: halo_michael <yc992147156@me.com>
 Name: FixLdrestart(Unc0ver)
 
 Package: com.michael.fontsemoji-theme
-Version: 13.2-beta2
+Version: 13.2-final
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: firmware (>= 10.0), com.ps.emojiportpe, com.spark.snowboard, com.spark.snowboard.fonts | net.dodtweaks.ithemer
-Filename: ./debs/com.michael.fontsemoji-theme_1.0.0_iphoneos-arm.deb
-Size: 57057104
-MD5sum: 6905177460c066912281cd21dc751f94
-SHA1: d959c11464e19ed3ebb940aaaaf49d80c8fa03d4
-SHA256: d5436db11d468e22752c4d67ae7ea6dbfa0d5ec552cd6d5e95fa0ebe49f28f29
+Filename: ./debs/com.michael.fontsemoji-theme_13.2-final_iphoneos-arm.deb
+Size: 57057120
+MD5sum: 3064746059a0ab622880770c1702b6ce
+SHA1: fa77295ef97629ba4fad3bb5e079796a2421bc38
+SHA256: 78b51caa573b3b9233e1b005069c446a2e5ac4f4fd5fb7b0346a98e596814e27
 Section: Fonts
 Description: The newest iOS emoji fonts. depends on EmojiPort and SnowBoard/iThemer.
 Author: Apple.Inc
