@@ -48,18 +48,18 @@ Name: Network Magician
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.TimeMachine
-Version: 0.6.6
+Version: 0.6.7
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: com.bingner.plutil, coreutils, firmware (>= 10.3), firmware (<= 12.4.2)
 Conflicts: com.michael.TimeMachineLite, com.yourepo.halo-michael.timemachineonios, com.yourepo.halo-michael.timemachineonioslite
 Replaces: com.michael.TimeMachineLite, com.yourepo.halo-michael.timemachineonios, com.yourepo.halo-michael.timemachineonioslite
 Provides: com.michael.TimeMachineLite, com.yourepo.halo-michael.timemachineonios, com.yourepo.halo-michael.timemachineonioslite
-Filename: ./debs/com.michael.TimeMachine-0.6.6_iphoneos-arm.deb
-Size: 12648
-MD5sum: a2252e5fbfd890150c5fc3bee33c7243
-SHA1: cc3d082d86182312101d623b16242bc0e45c6aa4
-SHA256: 3cef5dfbdeaf67f16e5ad5074e2a0c140fd23d81071ed03210b63ad606c3a74a
+Filename: ./debs/com.michael.TimeMachine-0.6.7_iphoneos-arm.deb
+Size: 13172
+MD5sum: c48c4f45f77d806a2b75d8207d665608
+SHA1: 655ee6a863afda8880ea82880ab73e8d625cfdac
+SHA256: 29982b5811558e36d27ad097a6f8f66f079ad7c8965db9e4fd22107a3129b104
 Section: Tweaks
 Description: TimeMachine on iOS will creat a rootfs snapshot and a datafs snapshot at 2:00AM everyday;and delete the oldest snapshots when you have more than default 7(or other you set) snapshots.
  You can use "setTimeMachine" on Terminal to select the maximum number of snapshots you want to backup for TimeMachine.
@@ -310,15 +310,15 @@ Author: halo_michael <yc992147156@me.com>
 Name: Neofetch Installer
 
 Package: com.michael.resolutionsetter
-Version: 0.3.0
+Version: 0.3.1
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: firmware (>= 9.0)
-Filename: ./debs/com.michael.resolutionsetter-0.3.0_iphoneos-arm.deb
-Size: 5676
-MD5sum: 33d513dd8e9e9166921cbb236b67b792
-SHA1: f54612533b98d5ae74ed98583c4e3a6d913ff582
-SHA256: 8d118259bfee3429cfe874766f314242aab88d847eb1905ac5d87affcfaed365
+Filename: ./debs/com.michael.resolutionsetter-0.3.1_iphoneos-arm.deb
+Size: 5704
+MD5sum: dbabe8145a2b2e5dbc6fa8c23f242141
+SHA1: ae60fc649b4324f9342a229f2008aa857f667d78
+SHA256: 2a48584477304aa87efc75b698ab1bcaf852ece20b8b7f79a453aa90d6c870c5
 Section: Tweaks
 Description: Change your device resolution via Terminal! Usage: res|resolution [height] [width] [OPTIONS...]. Please type "res|resolution -h" on Terminal to get more messages.
 Author: halo_michael <yc992147156@me.com>
