@@ -78,27 +78,27 @@ Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
 Depends: firmware (>= 11.0)
 Conflicts: com.michael.appleturboboost
-Filename: ./debs/com.michael.appleilluminator_0.4.0_iphoneos-arm.deb
+Filename: ./debs/com.michael.appleilluminator_0.4.1_iphoneos-arm.deb
 Size: 110508
-MD5sum: ba164fae1cedc030ff2a965c88c1337b
-SHA1: d3670582aac239849924858d29c4acf6952aa48c
-SHA256: a8703a5ba417bbadc4818ae317877512e0890c3399918303538b4519e986a959
+MD5sum: 0ed95da968cb8f2386e932fe78761912
+SHA1: 674b7afa0582b5da22766f2f0c1d3171286a6397
+SHA256: 75cfb4b1402e818b68138cea383ad863beaaabfaacfb0dc5aa60aa164b688942
 Section: Tweaks
 Description: Illuminate your Apple! Relieve Apple’s overheating Reduces brightness limit. Different from Apple Turbo Boost is, I can make sure it fully works on iOS11!
 Author: Halo_Michael <yc992147156@me.com>
 Name: Apple Illuminator
 
 Package: com.michael.appleturboboost
-Version: 0.4.0
+Version: 0.4.1
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
 Depends: firmware (>= 12.0)
 Conflicts: com.michael.appleilluminator
-Filename: ./debs/com.michael.appleturboboost_0.4.0_iphoneos-arm.deb
-Size: 110646
-MD5sum: 76702e51b6f7ba63bcd2da51df921434
-SHA1: 81d5d61e7ac627fcd8991f1ffb13b51c8577fa37
-SHA256: 632e8606d38458da981cde0732d225db5f044d143773bfbb6cb9e06d5de34f9a
+Filename: ./debs/com.michael.appleturboboost_0.4.1_iphoneos-arm.deb
+Size: 110644
+MD5sum: 44c4420da6e4a8bfae9b91836db16b51
+SHA1: 43848f219f57b31c32218e06f3123164553d9cd0
+SHA256: 3c64f9ce7c5dfa9788159f13ccc8c7ab2b8500a7a3367614e0c1a0ad618f0309
 Section: Tweaks
 Description: Turbo Boost Your Apple!
 Author: Halo_Michael <yc992147156@me.com>
