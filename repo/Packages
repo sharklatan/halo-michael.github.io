@@ -325,6 +325,22 @@ Author: halo_michael <yc992147156@me.com>
 Name: Resolution Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
+Package: com.michael.restorefonts
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: firmware (>= 11.0)
+Filename: ./debs/com.michael.RestoreFonts-0.1.0_iphoneos-arm.deb
+Size: 4584
+MD5sum: 2f9293cd795f16e9bdf2b49a8f376b5d
+SHA1: 1e60e698cfef82b326ae4a17559d803252fad75a
+SHA256: 916e250a60bd50cc8babf23b8566ef032dd945cea9763c19351ba01381232e9b
+Section: Tweaks
+Description: Restore your fonts.
+Author: halo_michael <yc992147156@me.com>
+Name: RestoreFonts
+Sponsor: halo_michael <yc992147156@me.com>
+
 Package: com.michael.selector
 Version: 0.1.2
 Architecture: iphoneos-arm
