@@ -360,18 +360,19 @@ Author: Nepeta
 Name: Selector(简体中文)
 
 Package: com.michael.snappy
-Version: 1.3
+Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
+Installed-Size: 448
 Depends: firmware (>= 10.3)
 Conflicts: com.bingner.snappy
 Replaces: com.bingner.snappy
 Provides: com.bingner.snappy
-Filename: ./debs/com.michael.snappy_1.3_iphoneos-arm.deb
-Size: 22186
-MD5sum: 12125adaafd24fcb7f4ade42417727b9
-SHA1: c5eb1a2ef9294616456a3dfb4862523fed0b7a00
-SHA256: 2aa4d51d736934649fa587fe785d6381527672a6c583c7e7d385443518f826dc
+Filename: ./debs/com.michael.snappy_1.3.1_iphoneos-arm.deb
+Size: 31330
+MD5sum: bb439edf6ac980fb45f98bf5578128e7
+SHA1: cc36957a24d3fde556f568374766251d2bf518ea
+SHA256: 2de02b769392c0f0975e881a4caff634af277d89fa7d03c21d12cef9e24c23eb
 Section: System
 Description: A Tool for APFS Snapshot Management; removed disable revent restrict on iOS.
 Tag: role::hacker
