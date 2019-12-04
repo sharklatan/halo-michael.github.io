@@ -294,6 +294,26 @@ Description: Install jtool2 from newosxbook.com.
 Author: halo_michael <yc992147156@me.com>
 Name: jtool2 Installer
 
+Package: com.michael.localssh
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: firmware (>= 11.0), openssh, com.bingner.plutil, sed
+Conflicts: com.midnightchips.localhostssh
+Replaces: com.midnightchips.localhostssh
+Provides: com.midnightchips.localhostssh
+Filename: ./debs/com.michael.localssh-0.1.0_iphoneos-arm.deb
+Size: 2948
+MD5sum: f1243eb68547c6a0ef8ed6a26e04f222
+SHA1: bca0d4ef180c2012a39c12370d3616f589745037
+SHA256: d55bbb65465d5dcf8cf4ba741df62c24e81f755db1d5ce712514c41d7a97d017
+Section: Tweaks
+Description: Enable port 2222 for OpenSSH.
+ Support Checkra1n, Chimera, Electra and Unc0ver.
+Author: halo_michael <yc992147156@me.com>
+Name: LocalSSH
+Sponsor: halo_michael <yc992147156@me.com>
+
 Package: com.michael.neofetch
 Version: 1.0.0
 Architecture: iphoneos-arm
