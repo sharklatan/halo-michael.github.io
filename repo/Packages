@@ -196,6 +196,26 @@ Author: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
 Name: 心雨华文楷体-Theme
 Sponsor: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
 
+Package: com.michael.generatorautosetter
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: firmware (>= 12.3), com.michael.dimentio
+Filename: ./debs/com.michael.generatorautosetter-0.1.0_iphoneos-arm.deb
+Size: 4616
+MD5sum: c5e9bda7b2fed85dd8f82fbd7c5a0361
+SHA1: 70c031af6498ad3285e37e7b191f77a7532775e5
+SHA256: 8200bc09149ac2ab7b9691e2e4345b920ab5e3c4ba4c1ed35105ea807310900b
+Section: Tweaks
+Description: Auto set your generator when jailbreaking!
+ Auto set your generator when jailbreaking!
+ Usage: setgenerator [generator]
+ If you didn't choose a generator, Generator Auto Setter will set 0x1111111111111111 as default generator.
+ Only Support Checkra1n. (Because other jailbreak tool doesn't need that.)
+Author: halo_michael <yc992147156@me.com>
+Name: Generator Auto Setter
+Sponsor: halo_michael <yc992147156@me.com>
+
 Package: com.michael.globalizefix
 Version: 0.1.2
 Architecture: iphoneos-arm
