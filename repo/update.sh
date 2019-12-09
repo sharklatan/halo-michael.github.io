@@ -6,7 +6,7 @@ do
 		cd update
 		unzip $file
 		rm -rf $file
-		./ldid_wrapper -Sglobal.xml -M -Ksigncert.p12 Payload/PPSSPP.app/PPSSPP
+		ldid -Sglobal.xml -M -Ksigncert.p12 Payload/PPSSPP.app/PPSSPP
 		zip -r9 $file Payload/PPSSPP.app
 rm -rf Payload
 		mv $file ../../ipas
@@ -15,7 +15,7 @@ rm -rf Payload
 	if [[ $file == org.ppsspp.ppsspp*deb ]];then
 		mv update/$file debs
 	fi
-	if [[ $file != 'global.xml' && $file != 'ldid_wrapper' && $file != 'signcert.p12' ]];then
+	if [[ $file != 'global.xml' && $file != 'signcert.p12' ]];then
 		rm -rf update/$file
 	fi
 done
