@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="txt/html; charset=utf-8" />
+	</head>
+	<body>
+	<script language="javascript">
+		window.onload = function() {
+			var c = confirm("Are you using pre-A12 device with Unc0ver?");
+			if (c == true) {
+				window.location.replace("itms-services://?action=download-manifest&url=https://halo-michael.github.io/download/u0_ppsspp_en_US.plist");
+			} else {
+				window.location.replace("itms-services://?action=download-manifest&url=https://halo-michael.github.io/download/ppsspp_en_US.plist");
+			}
+		}
+	</script>
+	</body>
+</html>
+

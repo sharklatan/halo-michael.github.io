@@ -2,21 +2,31 @@
 
 for file in `ls update`
 do
-	if [[ $file == PPSSPP*ipa ]];then
+	if [[ ${file} == PPSSPP*ipa ]];then
 		cd update
-		unzip $file
-		rm -rf $file
+		unzip ${file}
+		mv ${file} ../../ipas
 		ldid -Sglobal.xml -M -Ksigncert.p12 Payload/PPSSPP.app/PPSSPP
-		zip -r9 $file Payload/PPSSPP.app
-rm -rf Payload
-		mv $file ../../ipas
+		zip -r9 u0_${file} Payload/PPSSPP.app
+		rm -rf Payload
+		mv u0_${file} ../../ipas
 		cd ..
 	fi
-	if [[ $file == org.ppsspp.ppsspp*deb ]];then
-		mv update/$file debs
+	if [[ ${file} == iSH*ipa ]];then
+		cd update
+		unzip ${file}
+		mv ${file} ../../ipas
+		ldid -Sglobal.xml -M -Ksigncert.p12 Payload/iSH.app/iSH
+		zip -r9 u0_${file} Payload/iSH.app
+		rm -rf Payload
+		mv u0_${file} ../../ipas
+		cd ..
 	fi
-	if [[ $file != 'global.xml' && $file != 'signcert.p12' ]];then
-		rm -rf update/$file
+	if [[ ${file} == org.ppsspp.ppsspp*deb ]];then
+		mv update/${file} debs
+	fi
+	if [[ ${file} != 'global.xml' && ${file} != 'signcert.p12' ]];then
+		rm -rf update/${file}
 	fi
 done
 
