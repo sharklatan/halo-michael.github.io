@@ -249,21 +249,21 @@ Author: Halo_Michael <yc992147156@me.com>
 Name: HandPrint
 
 Package: com.michael.iostoolchain
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
-Depends: llvm-clang, ld64, odcctools, make, ldid
-Conflicts: org.coolstar.iostoolchain
+Depends: clang, ld64, odcctools, make, ldid
+Conflicts: org.coolstar.iostoolchain, llvm-clang
 Replaces: org.coolstar.iostoolchain
 Provides: org.coolstar.iostoolchain
-Filename: ./debs/com.michael.iostoolchain_1.0.0_iphoneos-arm.deb
-Size: 738
-MD5sum: aea776436d7486963a2fba4eab58bb98
-SHA1: 91fa2c86216cfc0ae997d6a999455a682637efd7
-SHA256: bed241255bd1de1a8f1f0b928912de6333efb5cec1124d01d83bade6cf2be907
+Filename: ./debs/com.michael.iostoolchain_1.1.0_iphoneos-arm.deb
+Size: 734
+MD5sum: 66ea28ef5183fef8ad5d437240ef0509
+SHA1: 9fc454a70e5e55111f8359cca8a43b151ef865a2
+SHA256: 595a894922f678d1acb966ca53d4a05899d7287ba1dc230013647d98d0ccfa49
 Section: Development
 Priority: optional
-Description: Install LLVM+Clang, ld64, CC tools, Make, ldid from Bingner/Elucubratus repo.
+Description: Install Clang, ld64, CC tools, Make, ldid from Bingner/Elucubratus repo.
 Tag: purpose::console
 Author: halo_michael <yc992147156@me.com>
 Dev: halo_michael
