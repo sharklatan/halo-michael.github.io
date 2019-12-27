@@ -41,7 +41,7 @@ do
 	if [[ ${file} == org.ppsspp.ppsspp*deb ]];then
 		mv update/${file} debs
 	fi
-	if [[ ${file} != 'global.xml' && ${file} != 'signcert.p12' && ${file} ]];then
+	if [[ ${file} != 'global.xml' && ${file} != 'signcert.p12' ]];then
 		rm -rf update/${file}
 	fi
 done
