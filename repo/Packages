@@ -495,3 +495,23 @@ Depiction: https://cydia.ppsspp.org/?page/org.ppsspp.ppsspp-dev-latest
 Icon: file:///Library/PPSSPPRepoIcons/org.ppsspp.ppsspp-dev-latest.png
 Name: PPSSPP (Dev-Latest)
 
+Package: org.ppsspp.ppsspp-dev-latest
+Version: 0v1.9.3-234-g3bd0b3fa7
+Architecture: iphoneos-arm
+Maintainer: Henrik Rydgård
+Conflicts: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing, org.ppsspp.ppsspp, org.ppsspp.ppsspp-dev-working
+Replaces: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
+Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
+Filename: ./debs/org.ppsspp.ppsspp-dev-latest_0v1.9.3-234-g3bd0b3fa7_iphoneos-arm.deb
+Size: 14682528
+MD5sum: bc9356e6739b4481b43d585100c775e2
+SHA1: 9bd292d89dded556adc830c73a35f1387b41d18f
+SHA256: 64cdb99a3e4d162c4b7b404928cf7e35674ea0bb0cb9e0de3b1bab638983ac1b
+Section: Games
+Homepage: https://build.ppsspp.org/
+Description: A PSP emulator
+Author: Henrik Rydgård
+Depiction: https://cydia.ppsspp.org/?page/org.ppsspp.ppsspp-dev-latest
+Icon: file:///Library/PPSSPPRepoIcons/org.ppsspp.ppsspp-dev-latest.png
+Name: PPSSPP (Dev-Latest)
+
