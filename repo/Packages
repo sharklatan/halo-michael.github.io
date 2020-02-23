@@ -119,6 +119,21 @@ Description: Fake CMCC icon for Zeppelin! Requires Zeppelin.
 Author: Halo-Michael <yc992147156@me.com>
 Name: Zeppelin CMCC Icon
 
+Package: com.michael.cuck00
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Halo_Michael <yc992147156@me.com>
+Filename: ./debs/com.michael.cuck00_0.1.0_iphoneos-arm.deb
+Size: 4016
+MD5sum: b7ec7be85e18dfa7cf544afaa7beaf99
+SHA1: 4519f3487a52a0139b8dacd1e596cc243196b453
+SHA256: 4832a0093a4fdd250b8ead41737931bab199d2b1745865de7910e4003eb16141
+Section: Exploit demo
+Description: Exploit demo of cuck00.
+ Exploit demo of cuck00. XNU/IOKit info leak 1day. Killed in iOS 13.3.1 beta 2. More details: https://siguza.github.io/cuck00/
+Author: siguza <siguza@siguza.net>
+Name: cuck00
+
 Package: com.michael.cycripter
 Version: 0.1.0
 Architecture: iphoneos-arm
@@ -283,6 +298,22 @@ Author: halo_michael <yc992147156@me.com>
 Dev: halo_michael
 Name: iOS Toolchain
 Sponsor: halo_michael <yc992147156@me.com>
+
+Package: com.michael.ipv6-pathmtu
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Halo_Michael <yc992147156@me.com>
+Filename: ./debs/com.michael.ipv6-pathmtu_0.1.0_iphoneos-arm.deb
+Size: 3084
+MD5sum: 4ddac9ae683ecdc285bb87389ee5ed95
+SHA1: 3fa6eb38bc496262b4fbce541ab94fa0a77243d8
+SHA256: f58ac46f1a159c773f4def3f45fafe96b91013b3d47599ca75340bca25312604
+Section: Exploit demo
+Description: Exploit demo of ipv6_pathmtu (CVE-2020-3842).
+ Exploit demo of ipv6_pathmtu (CVE-2020-3842). Killed in iOS 13.3.1. To reproduce this bug, please run ipv6_pathmtu as root. You can use "ipv6_pathmtu -h" to check more details. More details: https://bugs.chromium.org/p/project-zero/issues/detail?id=1976
+ Depends python3 and scapy module. To install module, please install python3 and pip3 first, then run "pip3 install scapy".
+Author: nedwill <nedwill@google.com>
+Name: ipv6_pathmtu
 
 Package: com.michael.jtool
 Version: 1.2.0
