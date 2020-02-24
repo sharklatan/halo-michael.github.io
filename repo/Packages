@@ -315,6 +315,23 @@ Description: Exploit demo of ipv6_pathmtu (CVE-2020-3842).
 Author: nedwill <nedwill@google.com>
 Name: ipv6_pathmtu
 
+Package: com.michael.ipv6-pathmtu
+Version: 0.2.0
+Architecture: iphoneos-arm
+Maintainer: Halo_Michael <yc992147156@me.com>
+Depends: network-cmds, python3, wget
+Filename: ./debs/com.michael.ipv6-pathmtu_0.2.0_iphoneos-arm.deb
+Size: 5332
+MD5sum: 739c4603d1b23f0dc67e35a6d1824cd4
+SHA1: 73637ad2d20082e06d527d3e31e81b578d44deb4
+SHA256: 90c8428b233b9677fc35fd9a13c6399399132257089c42408b74f812970e86ac
+Section: Exploit demo
+Description: Exploit demo of ipv6_pathmtu (CVE-2020-3842).
+ Exploit demo of ipv6_pathmtu (CVE-2020-3842). Killed in iOS 13.3.1. To reproduce this bug, please run ipv6_pathmtu as root. You can use "ipv6_pathmtu -h" to check more details. More details: https://bugs.chromium.org/p/project-zero/issues/detail?id=1976
+ Network required to install scapy module for python3 (if not already installed).
+Author: nedwill <nedwill@google.com>
+Name: ipv6_pathmtu
+
 Package: com.michael.jtool
 Version: 1.2.0
 Architecture: iphoneos-arm
