@@ -467,6 +467,21 @@ Tag: role::hacker
 Author: Sam Bingner <snappy@bingner.com>
 Name: Snappy
 
+Package: com.michael.substrated
+Version: 0.9.7101
+Architecture: iphoneos-arm
+Maintainer: Halo_Michael <yc992147156@me.com>
+Depends: dpkg, firmware(>=13.0)
+Filename: ./debs/com.michael.substrated.deb
+Size: 2498460
+MD5sum: fc903155760ffba365b6cd9f2a7f5023
+SHA1: bf447a7e9bd73fdab8ef4da930e2f04708e6f6f8
+SHA256: a599ae768f95fce794fafc3195b3b263d4f8047e4c0e71bf5359e6bec99fc8c2
+Section: System
+Description: Simple gadget that allows switching from unc0ver to checkra1n without having to manually reinstall Cydia Substrate.
+Author: Halo_Michael <yc992147156@me.com>
+Name: Unc0ver Support Package
+
 Package: com.michael.wechatjailbreakhook
 Version: 0.1-3
 Architecture: iphoneos-arm
