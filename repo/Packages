@@ -278,16 +278,16 @@ Author: Halo_Michael <yc992147156@me.com>
 Name: HandPrint
 
 Package: com.michael.handprint
-Version: 0.5.0-1
+Version: 0.5.0-2
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
 Installed-Size: 88
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.michael.handprint_0.5.0-1_iphoneos-arm.deb
-Size: 3380
-MD5sum: e2d6ea6dd0e72d01e5e3f57e30c58147
-SHA1: 49c3ce77be569f2e43c6b0d571a25def953edb4a
-SHA256: 1fdeba48785934532fef0c101e9cbc4ed85a00c64767dd3aabd2238d276071fc
+Filename: ./debs/com.michael.handprint_0.5.0-2_iphoneos-arm.deb
+Size: 3276
+MD5sum: ccf89fa6387549ba12036fb890aef8ec
+SHA1: cb257799e63d46173d8816d13df906eac3636520
+SHA256: 0756397ee958b0c51d7bb19cd82189d7e6d0898cf0da2ef02a834df29a90e845
 Section: Tweaks
 Description: Enable native X gesture for your iPhone!
 Author: Halo_Michael <yc992147156@me.com>
