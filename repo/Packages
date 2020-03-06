@@ -154,10 +154,10 @@ Version: 0.5.2
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
 Filename: ./debs/com.michael.dimentio_0.5.2_iphoneos-arm.deb
-Size: 6820
-MD5sum: e28d00047b47ec6a24eaca494d4962f4
-SHA1: 23365193e83aa8a4b57a633027cb2fefe3cf1f68
-SHA256: 95f1063994e7c30f91bc08d13814c0084e3e3a6ae37778b8a1f8dab5e8264d72
+Size: 7440
+MD5sum: 611c554fc40258476e4ad7565baa92c3
+SHA1: d9b9127f89293b6fe247af423e455f63fb1951cb
+SHA256: efacbea1fbca4243d499a937e19673353dcf1bc34fd7de3556b31dbec1c6a6f0
 Section: System
 Description: PoC tool for setting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
 Author: 0x7ff
