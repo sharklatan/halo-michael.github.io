@@ -150,28 +150,14 @@ Author: NitoTV
 Name: Cycripter
 
 Package: com.michael.dimentio
-Version: 0.5.0
+Version: 0.5.2
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
-Filename: ./debs/com.michael.dimentio_0.5.0_iphoneos-arm.deb
-Size: 7640
-MD5sum: f346503a0fa0e398648f408d516cb356
-SHA1: 1fcfbfdddfb15cafe41fa0864e8596ec9ee4de04
-SHA256: f6791b64be0b5e5311268abda2db17733ff61411ff0064ba3aeb7b5e18ec7718
-Section: System
-Description: PoC tool for setting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
-Author: 0x7ff
-Name: dimentio
-
-Package: com.michael.dimentio
-Version: 0.5.1
-Architecture: iphoneos-arm
-Maintainer: Halo_Michael <yc992147156@me.com>
-Filename: ./debs/com.michael.dimentio_0.5.1_iphoneos-arm.deb
-Size: 7440
-MD5sum: a2d433031923325b13fcb111ccbd3f43
-SHA1: efff13fccf827a5a8c8c74569e3c964456af97fa
-SHA256: fe48b913d16cd754c3c83991b618e7b9a9f12a2461a7a3c967cdcd1304b64fbe
+Filename: ./debs/com.michael.dimentio_0.5.2_iphoneos-arm.deb
+Size: 6820
+MD5sum: e28d00047b47ec6a24eaca494d4962f4
+SHA1: 23365193e83aa8a4b57a633027cb2fefe3cf1f68
+SHA256: 95f1063994e7c30f91bc08d13814c0084e3e3a6ae37778b8a1f8dab5e8264d72
 Section: System
 Description: PoC tool for setting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
 Author: 0x7ff
@@ -278,16 +264,16 @@ Author: Halo_Michael <yc992147156@me.com>
 Name: HandPrint
 
 Package: com.michael.handprint
-Version: 0.5.1-1
+Version: 0.5.2-1
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
 Installed-Size: 176
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.michael.handprint_0.5.1-1_iphoneos-arm.deb
-Size: 3884
-MD5sum: 73dedcbcb9f60084168e0e7a305428e9
-SHA1: 8a0650483cbe3ae07163d286b3729cfcac1681da
-SHA256: 2a47b9da9705f5fb8e120f68b6114b1125309cad88e5f3d811a692d625be81a8
+Filename: ./debs/com.michael.handprint_0.5.2-1_iphoneos-arm.deb
+Size: 3858
+MD5sum: 15850355f4bb3b362c8d80420d9439e3
+SHA1: 8b5ce81988f87027078da9c4d70c95b631096e30
+SHA256: 2a89cb83f54189bd99037be82877abb263b8a643eb1f0d460c1eddd9e7ae887a
 Section: Tweaks
 Description: Enable native X gesture for your iPhone!
 Author: Halo_Michael <yc992147156@me.com>
