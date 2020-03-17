@@ -73,32 +73,32 @@ Name: TimeMachine on iOS
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.appleilluminator
-Version: 0.4.0
+Version: 0.5.0
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
-Depends: firmware (>= 11.0)
+Depends: firmware (>= 11.0), darwintools, com.bingner.plutil (>= 0.1.0), sed, system-cmds
 Conflicts: com.michael.appleturboboost
-Filename: ./debs/com.michael.appleilluminator_0.4.1_iphoneos-arm.deb
-Size: 110508
-MD5sum: 0ed95da968cb8f2386e932fe78761912
-SHA1: 674b7afa0582b5da22766f2f0c1d3171286a6397
-SHA256: 75cfb4b1402e818b68138cea383ad863beaaabfaacfb0dc5aa60aa164b688942
+Filename: ./debs/com.michael.appleilluminator_0.5.0_iphoneos-arm.deb
+Size: 1552
+MD5sum: 50caea3b781d89ca4a3b4bdc0ee6c67e
+SHA1: ff5545cb89ce1d9388845aceffdad416dc0e3ec4
+SHA256: 52605806f6bdc097d88f1fbda4bbf4a5bdf748fa19c7ee4358ec878e32f79ced
 Section: Tweaks
 Description: Illuminate your Apple! Relieve Apple’s overheating Reduces brightness limit. Different from Apple Turbo Boost is, I can make sure it fully works on iOS11!
 Author: Halo_Michael <yc992147156@me.com>
 Name: Apple Illuminator
 
 Package: com.michael.appleturboboost
-Version: 0.4.1
+Version: 0.5.0
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
-Depends: firmware (>= 12.0)
+Depends: firmware (>= 12.0), darwintools, com.bingner.plutil (>= 0.1.0), sed, system-cmds
 Conflicts: com.michael.appleilluminator
-Filename: ./debs/com.michael.appleturboboost_0.4.1_iphoneos-arm.deb
-Size: 110644
-MD5sum: 44c4420da6e4a8bfae9b91836db16b51
-SHA1: 43848f219f57b31c32218e06f3123164553d9cd0
-SHA256: 3c64f9ce7c5dfa9788159f13ccc8c7ab2b8500a7a3367614e0c1a0ad618f0309
+Filename: ./debs/com.michael.appleturboboost_0.5.0_iphoneos-arm.deb
+Size: 1748
+MD5sum: 4a04dd471f0c2295fa9a0abcab35e4fe
+SHA1: ce85a21ed65c738fa6a75c91b77520868b9c932e
+SHA256: 9b04596811a5ff914806b3678e2d54e7e23f8cfe08f3f7f2f32c91fee96b034f
 Section: Tweaks
 Description: Turbo Boost Your Apple!
 Author: Halo_Michael <yc992147156@me.com>
