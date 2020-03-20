@@ -12,25 +12,6 @@ Priority: optional
 Author: lzh
 Name: Test_appstore_admin
 
-Package: com.laoyur.network-fixer
-Version: 0.1-2
-Architecture: iphoneos-arm
-Maintainer: laoyur
-Depends: firmware (>= 5.0)
-Filename: ./debs/com.laoyur.network-fixer-0.1-2.deb
-Size: 3140
-MD5sum: 2b7a40a092e9e76576b1e13c74937657
-SHA1: 47f658d7ff2ab4a419054d8ab294349b183c7c6d
-SHA256: 7cfa8d6caf6c3d0ffc4e57e6e62fad54595ab8834811a9652a78fec15ab3df34
-Section: System
-Priority: optional
-Description: Fix app network error for China models.
- A simple executable to fix app network error for China models.
- How to use:
- /usr/bin/NetworkFixer com.example.bundleid
-Author: laoyur
-Name: Network Fixer
-
 Package: com.michael.NetworkMagician
 Version: 0.1.1
 Architecture: iphoneos-arm
@@ -384,22 +365,22 @@ Author: halo_michael <yc992147156@me.com>
 Name: Neofetch Installer
 
 Package: com.michael.networkfixer
-Version: 1.0.0-2
+Version: 1.1.0-1
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Installed-Size: 132
-Depends: firmware (>= 12.0)
+Depends: firmware (>= 11.0)
 Conflicts: com.laoyur.network-fixer, com.rockqj.networkfixer
-Filename: ./debs/com.michael.networkfixer_1.0.0-2_iphoneos-arm.deb
-Size: 3872
-MD5sum: e9f1b58a6b45eec733cfc8a862514753
-SHA1: 2edf09066fc824fbef8b8b905806c13ce4a787f4
-SHA256: cb98b984414652e52d99fab257264a2e8c95847d0352618d5c093bd884cab537
+Filename: ./debs/com.michael.networkfixer_1.1.0-1_iphoneos-arm.deb
+Size: 4020
+MD5sum: 10b51997385f7fb3e243591bd3da2747
+SHA1: f044a1b04df6ccc7ce253ea94354e7c34cb630b2
+SHA256: 312f2df95ac131000e835f20457f982834bf758518b88a0fa3c05ec58ff10cfb
 Section: System
 Description: Fix app network error for China models.
  Fix app network error for China models.
  A simple executable to fix app network error for China models.
- Support iOS12 and iOS13
+ Support iOS11 to iOS13
  How to use:
  /usr/bin/networkfixer com.example.bundleid
 Tag: role::hacker
