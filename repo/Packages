@@ -365,17 +365,17 @@ Author: halo_michael <yc992147156@me.com>
 Name: Neofetch Installer
 
 Package: com.michael.networkfixer
-Version: 1.1.0-1
+Version: 1.1.1-1
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Installed-Size: 132
 Depends: firmware (>= 11.0)
 Conflicts: com.laoyur.network-fixer, com.rockqj.networkfixer
-Filename: ./debs/com.michael.networkfixer_1.1.0-1_iphoneos-arm.deb
-Size: 4020
-MD5sum: 10b51997385f7fb3e243591bd3da2747
-SHA1: f044a1b04df6ccc7ce253ea94354e7c34cb630b2
-SHA256: 312f2df95ac131000e835f20457f982834bf758518b88a0fa3c05ec58ff10cfb
+Filename: ./debs/com.michael.networkfixer_1.1.1-1_iphoneos-arm.deb
+Size: 4766
+MD5sum: 5177eb65cf04bb6ff89304fae778a8a2
+SHA1: 662f9a103a2355641504a2520de006b9a7be68e4
+SHA256: 0fe1f069c870580da1e7edfb02106de60eaa8acf8e6da0bd9c6c88d40bef93d2
 Section: System
 Description: Fix app network error for China models.
  Fix app network error for China models.
