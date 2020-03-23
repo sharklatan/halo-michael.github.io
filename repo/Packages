@@ -387,6 +387,25 @@ Tag: role::hacker
 Author: halo_michael <yc992147156@me.com>
 Name: networkfixer
 
+Package: com.michael.resolutionautosetter
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: com.michael.resolutionsetter (>= 0.4.1), firmware (>= 13.0), sed, sudo
+Filename: ./debs/com.michael.resolutionautosetter_0.1.0_iphoneos-arm.deb
+Size: 7864
+MD5sum: 3f0d3869b487fa027a301dd1b6ecd5fa
+SHA1: 2ff3dcb93a20b708ae8a219858317035846e10c0
+SHA256: 187d471b5d1acc8b0df6efddb6bb1172f2fbc38d750d60dd1d524a2109d3d609
+Section: Tweaks
+Description: Auto set your resolution when jailbreaking!
+ Auto set your resolution when jailbreaking!
+ Only support Checkra1n jailbreak!
+ Use Resolutio Setter once, and Resolution Auto Setter will work when jailbreaking.
+Author: halo_michael <yc992147156@me.com>
+Name: Resolution Auto Setter
+Sponsor: halo_michael <yc992147156@me.com>
+
 Package: com.michael.resolutionsetter
 Version: 0.3.2
 Architecture: iphoneos-arm
@@ -397,6 +416,23 @@ Size: 5720
 MD5sum: e56786691f86099d21a5b0c6d3cc2168
 SHA1: 239229c736f710be4ff64c5eaa4a7a5f0f000713
 SHA256: 44ac4fbcb7e44571d4a5384a68e3323b462afcb62b9ae740fade616ca42bac42
+Section: Tweaks
+Description: Change your device resolution via Terminal! Usage: res|resolution [height] [width] [OPTIONS...]. Please type "res|resolution -h" on Terminal to get more messages.
+Author: halo_michael <yc992147156@me.com>
+Name: Resolution Setter
+Sponsor: halo_michael <yc992147156@me.com>
+
+Package: com.michael.resolutionsetter
+Version: 0.4.1-1
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Installed-Size: 200
+Depends: firmware (>= 9.0)
+Filename: ./debs/com.michael.resolutionsetter_0.4.1-1_iphoneos-arm.deb
+Size: 10014
+MD5sum: 564ed202c7483e6194a5a65685fef1af
+SHA1: f5ef77d03aa3c63459b52807d37cc3a7ae49690c
+SHA256: c14518245a4ee4bad3dbd29dc4dd0f0a82ca6604e30bd3b21d0db1418119bba3
 Section: Tweaks
 Description: Change your device resolution via Terminal! Usage: res|resolution [height] [width] [OPTIONS...]. Please type "res|resolution -h" on Terminal to get more messages.
 Author: halo_michael <yc992147156@me.com>
