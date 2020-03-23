@@ -388,15 +388,15 @@ Author: halo_michael <yc992147156@me.com>
 Name: networkfixer
 
 Package: com.michael.resolutionautosetter
-Version: 0.1.0
+Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
-Depends: com.michael.resolutionsetter (>= 0.4.1), firmware (>= 13.0), sed, sudo
-Filename: ./debs/com.michael.resolutionautosetter_0.1.0_iphoneos-arm.deb
-Size: 7864
-MD5sum: 3f0d3869b487fa027a301dd1b6ecd5fa
-SHA1: 2ff3dcb93a20b708ae8a219858317035846e10c0
-SHA256: 187d471b5d1acc8b0df6efddb6bb1172f2fbc38d750d60dd1d524a2109d3d609
+Depends: com.michael.resolutionsetter (>= 0.4.1), firmware (>= 13.0), mobilesubstrate, sed, sudo
+Filename: ./debs/com.michael.resolutionautosetter_0.1.1_iphoneos-arm.deb
+Size: 7868
+MD5sum: c78acb79b86deea7ee648891656d6b54
+SHA1: 87f1a380ca93657aecd1d250fd2861bbe94a8449
+SHA256: b6d081531902317a7f12c9a6429bdeb59d093ff8e7a3b32adf7e754394ceb818
 Section: Tweaks
 Description: Auto set your resolution when jailbreaking!
  Auto set your resolution when jailbreaking!
