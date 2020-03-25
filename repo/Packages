@@ -214,16 +214,16 @@ Name: Generator Auto Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.globalizefix
-Version: 0.3.0-1
+Version: 0.3.1-1
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
 Installed-Size: 136
 Depends: com.parrotgeek.globalize, mobilesubstrate
-Filename: ./debs/com.michael.globalizefix_0.3.0-1_iphoneos-arm.deb
+Filename: ./debs/com.michael.globalizefix_0.3.1-1_iphoneos-arm.deb
 Size: 3892
-MD5sum: b2693a45ede26b175206b55c6316d1e2
-SHA1: ddb33b08a5e58c48fb3f69e0f0c1b448d245add0
-SHA256: ed5652f3fcac66d27b45bba308360c3f63c48fa6f6ac95306f06308b0ed22b73
+MD5sum: 9e617c855a184e584cb6a0cf71ff4264
+SHA1: b5ee314234c3b05b84dceb0a00751cdf2969c15f
+SHA256: 1c1c83e40e27f91779619f2237da7fb71a01d9397a109f647b8e15c4792b405a
 Section: Tweaks
 Description: Fixed an issue that reboot may caused Globalize lose its effect.
 Author: Halo_Michael <yc992147156@me.com>
@@ -390,15 +390,15 @@ Author: halo_michael <yc992147156@me.com>
 Name: networkfixer
 
 Package: com.michael.resolutionautosetter
-Version: 0.2.0
+Version: 0.2.1
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: com.michael.resolutionsetter (>= 0.4.1), firmware (>= 11.0), mobilesubstrate, sed, sudo
-Filename: ./debs/com.michael.resolutionautosetter_0.2.0_iphoneos-arm.deb
-Size: 9664
-MD5sum: 99697a464e3c9b272acb478d4be292c4
-SHA1: 3a0eafeb8f518560376ebaf11877dda5f7496981
-SHA256: 9068c2e63e97484664bd233da95a714d8ab1aa40728fb5866b35171084464821
+Filename: ./debs/com.michael.resolutionautosetter_0.2.1_iphoneos-arm.deb
+Size: 9728
+MD5sum: 8d596176ae34fd471253cad37472ac4c
+SHA1: 785124fbdbcb1f106e2fc177bede974871edc0bb
+SHA256: 6369f76bdf975cf549f1ec300fabc1d09acf1c998b76ecb1371f5e5824dbcd68
 Section: Tweaks
 Description: Auto set your resolution when jailbreaking!
  Auto set your resolution when jailbreaking!
