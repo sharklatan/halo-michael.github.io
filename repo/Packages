@@ -132,14 +132,14 @@ Author: NitoTV
 Name: Cycripter
 
 Package: com.michael.dimentio
-Version: 0.5.2
+Version: 0.5.3
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
-Filename: ./debs/com.michael.dimentio_0.5.2_iphoneos-arm.deb
-Size: 7440
-MD5sum: 611c554fc40258476e4ad7565baa92c3
-SHA1: d9b9127f89293b6fe247af423e455f63fb1951cb
-SHA256: efacbea1fbca4243d499a937e19673353dcf1bc34fd7de3556b31dbec1c6a6f0
+Filename: ./debs/com.michael.dimentio_0.5.3_iphoneos-arm.deb
+Size: 7948
+MD5sum: 2b31bf22732f154b366448a3bd1ccb7a
+SHA1: 08d014dc1d1303e21b5216090a0bf65a8afec42a
+SHA256: c3c64f88effe7dc73f372fdaa6a928813896eaf9ea03fc1f3715c7c3a5a6d6a7
 Section: System
 Description: PoC tool for setting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
 Author: 0x7ff
@@ -560,26 +560,6 @@ Author: pwn20wnd <pwn20wndstuff@gmail.com>
 Name: nonceutil
 
 Package: org.ppsspp.ppsspp-dev-latest
-Version: 0v1.9.3-344-g6b3cc36b0
-Architecture: iphoneos-arm
-Maintainer: Henrik Rydgård
-Conflicts: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing, org.ppsspp.ppsspp, org.ppsspp.ppsspp-dev-working
-Replaces: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
-Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
-Filename: ./debs/org.ppsspp.ppsspp-dev-latest_0v1.9.3-344-g6b3cc36b0_iphoneos-arm.deb
-Size: 14549236
-MD5sum: 97b33bf2f8de15b51511acc122353063
-SHA1: 7104f30dbdecd924c949d37f1a716dc46b1ac897
-SHA256: fd2d5405f70451e4887c9a5b049a431abb5445fd888c2c9a33592b4927d83021
-Section: Games
-Homepage: https://build.ppsspp.org/
-Description: A PSP emulator
-Author: Henrik Rydgård
-Depiction: https://cydia.ppsspp.org/?page/org.ppsspp.ppsspp-dev-latest
-Icon: file:///Library/PPSSPPRepoIcons/org.ppsspp.ppsspp-dev-latest.png
-Name: PPSSPP (Dev-Latest)
-
-Package: org.ppsspp.ppsspp-dev-latest
 Version: 0v1.9.3-481-gd0e2aa3a4
 Architecture: iphoneos-arm
 Maintainer: Henrik Rydgård
@@ -611,6 +591,26 @@ Size: 14606440
 MD5sum: 63b8dcb29fe99a11ab6b3107ba77a3b1
 SHA1: a0f6e8b9324529df41caead367f0fd8b8853e851
 SHA256: 0448dc287cf01b92fcb2c0caa5de5201f13e9c2fb483ce1ba0a86fa9d802caac
+Section: Games
+Homepage: https://build.ppsspp.org/
+Description: A PSP emulator
+Author: Henrik Rydgård
+Depiction: https://cydia.ppsspp.org/?page/org.ppsspp.ppsspp-dev-latest
+Icon: file:///Library/PPSSPPRepoIcons/org.ppsspp.ppsspp-dev-latest.png
+Name: PPSSPP (Dev-Latest)
+
+Package: org.ppsspp.ppsspp-dev-latest
+Version: 0v1.9.3-603-ge8d6a605e
+Architecture: iphoneos-arm
+Maintainer: Henrik Rydgård
+Conflicts: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing, org.ppsspp.ppsspp, org.ppsspp.ppsspp-dev-working
+Replaces: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
+Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
+Filename: ./debs/org.ppsspp.ppsspp-dev-latest_0v1.9.3-603-ge8d6a605e_iphoneos-arm.deb
+Size: 14628596
+MD5sum: a44d605aacf55e95b996676084a89ff6
+SHA1: fb8a7ef93b777eb247015a00a6e2f6af99f8e37c
+SHA256: 2b11ea748cdb6b256adda6df170e790a1711906dc731925f4e51fc9f593a741e
 Section: Games
 Homepage: https://build.ppsspp.org/
 Description: A PSP emulator
