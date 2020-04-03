@@ -194,15 +194,15 @@ Name: 心雨华文楷体-Theme
 Sponsor: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
 
 Package: com.michael.generatorautosetter
-Version: 0.2.0
+Version: 0.2.1
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
-Depends: firmware (>= 12.3), com.michael.dimentio
-Filename: ./debs/com.michael.generatorautosetter_0.2.0_iphoneos-arm.deb
-Size: 6980
-MD5sum: fb8769969a7b318a402bb38d03860fc8
-SHA1: 8f0f45c6d0d6e4e36dbefa15818cf6ce739c56f6
-SHA256: 921d0130e00399de7acada3d3609b2a7e96d83ec4c6975ce2453e9a62f1332f7
+Depends: firmware (>= 12.3), com.michael.dimentio, coreutils
+Filename: ./debs/com.michael.generatorautosetter_0.2.1_iphoneos-arm.deb
+Size: 6280
+MD5sum: 1cbab4433eb275791b6eaf42e97daf3b
+SHA1: 1c1e89f24c728becf2b158d6fa97e165d4bb8fa3
+SHA256: b3dce96ad61160d0525f5fc0e86f9e1870ec791ee146ece2f32524630ae05f18
 Section: Tweaks
 Description: Auto set your generator when jailbreaking!
  Auto set your generator when jailbreaking!
@@ -390,15 +390,15 @@ Author: halo_michael <yc992147156@me.com>
 Name: networkfixer
 
 Package: com.michael.resolutionautosetter
-Version: 0.2.1
+Version: 0.3.0
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
-Depends: com.michael.resolutionsetter (>= 0.4.1), firmware (>= 11.0), mobilesubstrate, sed, sudo
-Filename: ./debs/com.michael.resolutionautosetter_0.2.1_iphoneos-arm.deb
-Size: 9728
-MD5sum: 8d596176ae34fd471253cad37472ac4c
-SHA1: 785124fbdbcb1f106e2fc177bede974871edc0bb
-SHA256: 6369f76bdf975cf549f1ec300fabc1d09acf1c998b76ecb1371f5e5824dbcd68
+Depends: com.michael.resolutionsetter (>= 0.4.2), coreutils, firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/com.michael.resolutionautosetter_0.3.0_iphoneos-arm.deb
+Size: 5284
+MD5sum: c8ad14a43c120d2a9b816922330d6cf6
+SHA1: 669ada884a6384749b331b2adfc0975d1f06af4b
+SHA256: 75a3327b6380d844a52b622f55237fd182dda166e8640970cd7f8932b12615e5
 Section: Tweaks
 Description: Auto set your resolution when jailbreaking!
  Auto set your resolution when jailbreaking!
@@ -424,16 +424,15 @@ Name: Resolution Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.resolutionsetter
-Version: 0.4.1-1
+Version: 0.4.2
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
-Installed-Size: 200
-Depends: firmware (>= 9.0)
-Filename: ./debs/com.michael.resolutionsetter_0.4.1-1_iphoneos-arm.deb
-Size: 10014
-MD5sum: 564ed202c7483e6194a5a65685fef1af
-SHA1: f5ef77d03aa3c63459b52807d37cc3a7ae49690c
-SHA256: c14518245a4ee4bad3dbd29dc4dd0f0a82ca6604e30bd3b21d0db1418119bba3
+Depends: firmware (>= 9.0), coreutils
+Filename: ./debs/com.michael.resolutionsetter_0.4.2_iphoneos-arm.deb
+Size: 11432
+MD5sum: 70642406a45a45341aef39659e8023ff
+SHA1: 99e55c9d16f80a71f49651abcfdde7e07015703a
+SHA256: a5345f3656def906461a06dce75fa690297942b3c78bf3e06cb6e205dcecccec
 Section: Tweaks
 Description: Change your device resolution via Terminal! Usage: res|resolution [height] [width] [OPTIONS...]. Please type "res|resolution -h" on Terminal to get more messages.
 Author: halo_michael <yc992147156@me.com>
