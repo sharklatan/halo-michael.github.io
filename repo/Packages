@@ -54,6 +54,23 @@ Author: halo_michael <yc992147156@me.com>
 Name: TimeMachine on iOS
 Sponsor: halo_michael <yc992147156@me.com>
 
+Package: com.michael.apfs-deletefs
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: coreutils, firmware (>= 10.3)
+Filename: ./debs/com.michael.apfs-deletefs_0.1.0_iphoneos-arm.deb
+Size: 4552
+MD5sum: 70020b91644a816993dcf24127c6687e
+SHA1: 778aa0baddf8e467dcff67b57c73ee86083c71f6
+SHA256: fd35796f3a09889bb1a357052d32194fb3b41649a5940a326ca46dbd2f071d87
+Section: System
+Description: A command line tool for deleting apfs partition on iOS/iPadOS.
+ A command line tool for deleting apfs partition on iOS/iPadOS.
+Author: halo_michael <yc992147156@me.com>
+Name: APFS Deletefs
+Sponsor: halo_michael <yc992147156@me.com>
+
 Package: com.michael.appleilluminator
 Version: 0.5.0
 Architecture: iphoneos-arm
@@ -539,24 +556,6 @@ Section: Tweaks
 Description: Disable WeNet Jailbreak Detection.
 Author: Halo_Michael <yc992147156@me.com>
 Name: WeNetJailbreakHook
-
-Package: nonceutil
-Version: 2.0
-Architecture: iphoneos-arm
-Maintainer: pwn20wnd <pwn20wndstuff@gmail.com>
-Depends: firmware (>= 11.0), cy+cpu.arm64
-Conflicts: science.xnu.nonceutil, science.xnu.noncereboot11, rocks.stek29.noncereboot11
-Replaces: science.xnu.nonceutil, science.xnu.noncereboot11, rocks.stek29.noncereboot11
-Filename: ./debs/nonceutil.deb
-Size: 70368
-MD5sum: c6be39422afabfc1f94ddb02481e559c
-SHA1: 0a72b9d58bd8220b8344daeb45eff56243de09aa
-SHA256: 4b9ee8bd2604c6017c6b84a0ca43f9c88559946107b54918847b05222f97bdc0
-Section: System
-Description: A proper command line nonce setter for iOS 11. Based on noncereboot11 by stek29.
-Tag: role::hacker
-Author: pwn20wnd <pwn20wndstuff@gmail.com>
-Name: nonceutil
 
 Package: org.ppsspp.ppsspp-dev-latest
 Version: 0v1.9.3-481-gd0e2aa3a4
