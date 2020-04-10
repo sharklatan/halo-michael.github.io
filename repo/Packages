@@ -406,6 +406,25 @@ Tag: role::hacker
 Author: halo_michael <yc992147156@me.com>
 Name: networkfixer
 
+Package: com.michael.networkfixer
+Version: 1.2.0-1
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Installed-Size: 132
+Depends: firmware (>= 11.0)
+Conflicts: com.laoyur.network-fixer, com.rockqj.networkfixer
+Filename: ./debs/com.michael.networkfixer_1.2.0-1_iphoneos-arm.deb
+Size: 4976
+MD5sum: 24fc2343f5cf10c2ead7e4327ea8b4f1
+SHA1: 03fe89c0ae649870d4590ff535a25691ca81671b
+SHA256: da3fa5073456556435038308aaeb32e76849d24c142269f5e224ded0cfbe4589
+Section: System
+Description: Fix app network error for China models.
+Tag: role::hacker
+Author: halo_michael <yc992147156@me.com>
+Depiction: https://halo-michael.github.io/repo/info/networkfixer
+Name: networkfixer
+
 Package: com.michael.resolutionautosetter
 Version: 0.3.0
 Architecture: iphoneos-arm
