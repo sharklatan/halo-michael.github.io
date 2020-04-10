@@ -55,19 +55,19 @@ Name: TimeMachine on iOS
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.apfs-deletefs
-Version: 0.1.1
+Version: 0.1.2
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: coreutils, firmware (>= 10.3)
-Filename: ./debs/com.michael.apfs-deletefs_0.1.1_iphoneos-arm.deb
-Size: 4708
-MD5sum: 86a7ad6a04486a00b218dbd03743d707
-SHA1: ee6f71398054ef64a991e4d645ee64b96f5e75b9
-SHA256: 82fcbcd0e144f643fbefda8763771e13dd430163994d863ae0c0cbdbaedc1c11
+Filename: ./debs/com.michael.apfs-deletefs_0.1.2_iphoneos-arm.deb
+Size: 4736
+MD5sum: dcc1bf5b1d633cb53f4bbeb18c70993e
+SHA1: b36eca76e8f07fa4a075010f1f969488684c5192
+SHA256: c9d91919b670e6b0260838e2319ca8bb03c906a92c1594baf145deaba115ebcb
 Section: System
 Description: A command line tool for deleting apfs partition on iOS/iPadOS.
- A command line tool for deleting apfs partition on iOS/iPadOS.
 Author: halo_michael <yc992147156@me.com>
+Depiction: https://halo-michael.github.io/repo/info/apfs-deletefs
 Name: APFS Deletefs
 Sponsor: halo_michael <yc992147156@me.com>
 
@@ -211,22 +211,19 @@ Name: 心雨华文楷体-Theme
 Sponsor: 微信公众号字由心雨、halo_michael <yc992147156@me.com>
 
 Package: com.michael.generatorautosetter
-Version: 0.2.2
+Version: 0.2.3
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: firmware (>= 12.3), com.michael.dimentio, coreutils
-Filename: ./debs/com.michael.generatorautosetter_0.2.2_iphoneos-arm.deb
-Size: 6296
-MD5sum: 497ea42692e4a93407ebab0135101519
-SHA1: 17c5daac9df249a6e98853e54537dab09f11e3d3
-SHA256: 2fa0f2554b761636d681f9578570f64a0e6f1ab811beca965fecf61f73742418
+Filename: ./debs/com.michael.generatorautosetter_0.2.3_iphoneos-arm.deb
+Size: 6212
+MD5sum: 6c8679e51fee75ba9988079869d35ae3
+SHA1: 7b7d37916904f8f24159f640f8e156df75903dd9
+SHA256: f416273e52535570efa8a72999fbbfa08de8aa4dc592ac919b87645231898514
 Section: Tweaks
 Description: Auto set your generator when jailbreaking!
- Auto set your generator when jailbreaking!
- Usage: setgenerator [generator]
- If you didn't choose a generator, Generator Auto Setter will set 0x1111111111111111 as default generator.
- Only Support Checkra1n. (Because other jailbreak tool doesn't need that.)
 Author: halo_michael <yc992147156@me.com>
+Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
 Name: Generator Auto Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
@@ -444,51 +441,37 @@ Name: Resolution Auto Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.resolutionsetter
-Version: 0.3.2
-Architecture: iphoneos-arm
-Maintainer: halo_michael <yc992147156@me.com>
-Depends: firmware (>= 9.0)
-Filename: ./debs/com.michael.resolutionsetter-0.3.2_iphoneos-arm.deb
-Size: 5720
-MD5sum: e56786691f86099d21a5b0c6d3cc2168
-SHA1: 239229c736f710be4ff64c5eaa4a7a5f0f000713
-SHA256: 44ac4fbcb7e44571d4a5384a68e3323b462afcb62b9ae740fade616ca42bac42
-Section: Tweaks
-Description: Change your device resolution via Terminal! Usage: res|resolution [height] [width] [OPTIONS...]. Please type "res|resolution -h" on Terminal to get more messages.
-Author: halo_michael <yc992147156@me.com>
-Name: Resolution Setter
-Sponsor: halo_michael <yc992147156@me.com>
-
-Package: com.michael.resolutionsetter
-Version: 0.4.2
+Version: 0.4.3
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: firmware (>= 9.0), coreutils
-Filename: ./debs/com.michael.resolutionsetter_0.4.2_iphoneos-arm.deb
-Size: 11432
-MD5sum: 70642406a45a45341aef39659e8023ff
-SHA1: 99e55c9d16f80a71f49651abcfdde7e07015703a
-SHA256: a5345f3656def906461a06dce75fa690297942b3c78bf3e06cb6e205dcecccec
+Filename: ./debs/com.michael.resolutionsetter_0.4.3_iphoneos-arm.deb
+Size: 11396
+MD5sum: 96d63890d5ddb33c6bb30279b08e744e
+SHA1: 87ba000cc8511f885f50228f822133d1e7a2e49f
+SHA256: aa701a5b4ee98fc84ba0e06dbf59f2fdbdd6ca1448b3ca5e13e82d6b0b87b4a8
 Section: Tweaks
-Description: Change your device resolution via Terminal! Usage: res|resolution [height] [width] [OPTIONS...]. Please type "res|resolution -h" on Terminal to get more messages.
+Description: Change your device resolution via Terminal!
 Author: halo_michael <yc992147156@me.com>
+Depiction: https://halo-michael.github.io/repo/info/resolutionsetter
 Name: Resolution Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.restorefonts
-Version: 0.1.4
+Version: 0.1.5
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: coreutils, coreutils-bin, firmware (>= 11.0)
-Filename: ./debs/com.michael.restorefonts_0.1.4_iphoneos-arm.deb
-Size: 6304
-MD5sum: fd7728f4331b801328b32a34f41944f3
-SHA1: 2c1df755fc19b87941573f1157b89753ad1086f2
-SHA256: 5e31435bd00c93d36d137b1345cb479ab4ff01431e4a17d6375ee895fa19dffe
+Filename: ./debs/com.michael.restorefonts_0.1.5_iphoneos-arm.deb
+Size: 6360
+MD5sum: 27966a35f6d4891061ebb1c7c2ff17ae
+SHA1: 82eba191c3ce79988b81f5bec3b42356f92f2bfb
+SHA256: 9b3a503e4ad5358025365065fe304b0fa97905893d6670f631b29e38d527c03c
 Section: Tweaks
-Description: Restore your fonts.
+Description: Quickily restore orignal fonts from your system snapshot.
 Author: halo_michael <yc992147156@me.com>
-Name: RestoreFonts
+Depiction: https://halo-michael.github.io/repo/info/restorefonts
+Name: Restore Fonts
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.selector
