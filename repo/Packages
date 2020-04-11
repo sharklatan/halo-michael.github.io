@@ -149,17 +149,18 @@ Author: NitoTV
 Name: Cycripter
 
 Package: com.michael.dimentio
-Version: 0.5.3
+Version: 0.5.4
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
-Filename: ./debs/com.michael.dimentio_0.5.3_iphoneos-arm.deb
-Size: 7948
-MD5sum: 2b31bf22732f154b366448a3bd1ccb7a
-SHA1: 08d014dc1d1303e21b5216090a0bf65a8afec42a
-SHA256: c3c64f88effe7dc73f372fdaa6a928813896eaf9ea03fc1f3715c7c3a5a6d6a7
+Filename: ./debs/com.michael.dimentio_0.5.4_iphoneos-arm.deb
+Size: 7984
+MD5sum: f1aee3216d686fa96000e39ed6fb217c
+SHA1: 009b6f2ecad4cde45ea671dc8d99e1d081755fd1
+SHA256: 9a56f81a837005df37a7f3c4ea9fd05c82b7db418ae391e22f740e0de7cdf2fc
 Section: System
 Description: PoC tool for setting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
 Author: 0x7ff
+Depiction: https://halo-michael.github.io/repo/info/dimentio
 Name: dimentio
 
 Package: com.michael.fixldrestart
@@ -366,18 +367,19 @@ Name: LocalSSH
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.neofetch
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: coreutils-bin, git, make
-Filename: ./debs/com.michael.neofetch_1.0.0_iphoneos-arm.deb
-Size: 962
-MD5sum: 0f44c98da0a70b19f06eb692d1fe3fdf
-SHA1: b2cdc995432d37fce769c3a6dfd8735fa9509aff
-SHA256: bf7547eda1b84c489ced84124a384c3410ae18c6031bb471f026feaedc924dec
+Filename: ./debs/com.michael.neofetch_1.1.0_iphoneos-arm.deb
+Size: 1124
+MD5sum: 574057ab4ca2f06621eb99b17eb643e6
+SHA1: 4fbc326b28b8ba16a9aa6301bcad2e4ef5dd8fd1
+SHA256: 9f44f0de78ec890447685b883a8d3beab2d077157e9a0a93ee85d0fc351cda2a
 Section: System
 Description: Install neofetch from https://github.com/dylanaraps/neofetch.git.
 Author: halo_michael <yc992147156@me.com>
+Depiction: https://halo-michael.github.io/repo/info/neofetch
 Name: Neofetch Installer
 
 Package: com.michael.networkfixer
