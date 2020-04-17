@@ -229,16 +229,15 @@ Name: Generator Auto Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.globalizefix
-Version: 0.3.1-1
+Version: 0.3.2
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
-Installed-Size: 136
-Depends: com.parrotgeek.globalize, mobilesubstrate
-Filename: ./debs/com.michael.globalizefix_0.3.1-1_iphoneos-arm.deb
-Size: 3892
-MD5sum: 9e617c855a184e584cb6a0cf71ff4264
-SHA1: b5ee314234c3b05b84dceb0a00751cdf2969c15f
-SHA256: 1c1c83e40e27f91779619f2237da7fb71a01d9397a109f647b8e15c4792b405a
+Depends: com.parrotgeek.globalize, com.michael.suer, coreutils-bin, mobilesubstrate
+Filename: ./debs/com.michael.globalizefix_0.3.2_iphoneos-arm.deb
+Size: 6672
+MD5sum: 14061b3fa9d20412f2929392d51f5899
+SHA1: 76f3983bd8d002766b0e9d218dca263cf2d439c6
+SHA256: 6fb75447bce7cac8fb05c0ef11e5a3e526df3525e4781d0149009f4b19d501ca
 Section: Tweaks
 Description: Fixed an issue that reboot may caused Globalize lose its effect.
 Author: Halo_Michael <yc992147156@me.com>
@@ -425,15 +424,15 @@ Depiction: https://halo-michael.github.io/repo/info/networkfixer
 Name: networkfixer
 
 Package: com.michael.resolutionautosetter
-Version: 0.3.0
+Version: 0.3.2
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
-Depends: com.michael.resolutionsetter (>= 0.4.2), coreutils, firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/com.michael.resolutionautosetter_0.3.0_iphoneos-arm.deb
-Size: 5284
-MD5sum: c8ad14a43c120d2a9b816922330d6cf6
-SHA1: 669ada884a6384749b331b2adfc0975d1f06af4b
-SHA256: 75a3327b6380d844a52b622f55237fd182dda166e8640970cd7f8932b12615e5
+Depends: com.michael.resolutionsetter (>= 0.4.2), com.michael.suer, coreutils-bin, firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/com.michael.resolutionautosetter_0.3.2_iphoneos-arm.deb
+Size: 7128
+MD5sum: 91739fc96a1db288bd7980540bfa2ab1
+SHA1: 305d95566030768d13b9d38b21a5a8850eaba90f
+SHA256: 5e92e29cb5079057eb1ded0fe5b8f2e4def7e07f3075f9a30730f37ddff35efa
 Section: Tweaks
 Description: Auto set your resolution when jailbreaking!
  Auto set your resolution when jailbreaking!
@@ -528,6 +527,23 @@ Section: System
 Description: Simple gadget that allows switching from unc0ver to checkra1n without having to manually reinstall Cydia Substrate.
 Author: Halo_Michael <yc992147156@me.com>
 Name: Unc0ver Support Package
+
+Package: com.michael.suer
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: coreutils-bin, firmware (>= 9.0)
+Filename: ./debs/com.michael.suer_0.1.0_iphoneos-arm.deb
+Size: 6060
+MD5sum: d9fe64b3e3b99767593787f927164d20
+SHA1: 3977cefbc01b335b2eb7758c594a0c87181631d1
+SHA256: b2c49eba4cf3a1231028bc27b7c2e529234ee9496324f53469b404301392aca4
+Section: Tweaks
+Description: Temporaily assume root priviledges but need not password.
+Author: halo_michael <yc992147156@me.com>
+Depiction: https://halo-michael.github.io/repo/info/suer
+Name: suer
+Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.wechatjailbreakhook
 Version: 0.1-3
