@@ -29,18 +29,18 @@ Name: Network Magician
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.TimeMachine
-Version: 0.8.8
+Version: 0.8.9
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: coreutils, firmware (>= 10.3), preferenceloader
 Conflicts: com.michael.TimeMachineLite, com.yourepo.halo-michael.timemachineonios, com.yourepo.halo-michael.timemachineonioslite
 Replaces: com.michael.TimeMachineLite, com.yourepo.halo-michael.timemachineonios, com.yourepo.halo-michael.timemachineonioslite
 Provides: com.michael.TimeMachineLite, com.yourepo.halo-michael.timemachineonios, com.yourepo.halo-michael.timemachineonioslite
-Filename: ./debs/com.michael.TimeMachine_0.8.8_iphoneos-arm.deb
-Size: 78036
-MD5sum: 98007ac57f875666666368a5f3264c37
-SHA1: 7388738b4160b1f18ae0f8a452aa80564d912a32
-SHA256: 1e8545f18f3fa5cab1441e36e48a5969419ea49fc81ae0249f5ee7dfa4dbebb8
+Filename: ./debs/com.michael.TimeMachine_0.8.9_iphoneos-arm.deb
+Size: 78372
+MD5sum: 7f7beb8d891af76ce4af6bfe9305fd0e
+SHA1: 2a37c875c6f0c29b7b400bb6eacb269931f722f6
+SHA256: daae4bf0eca601dd774206ace691a1cc445ea0c1b5d062c2d0ea5de7ec816da8
 Section: Tweaks
 Description: TimeMachine on iOS will creat a rootfs snapshot and a datafs snapshot at 2:00AM everyday;and delete the oldest snapshots when you have more than default 3(or other you set) snapshots.
  TimeMachine on iOS will creat a rootfs snapshot and a datafs snapshot at 2:00AM everyday;and delete the oldest snapshots when you have more than default 3(or other you set) snapshots.
@@ -529,15 +529,15 @@ Author: Halo_Michael <yc992147156@me.com>
 Name: Unc0ver Support Package
 
 Package: com.michael.suer
-Version: 0.2.0
+Version: 0.2.1
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: coreutils-bin, firmware (>= 9.0)
-Filename: ./debs/com.michael.suer_0.2.0_iphoneos-arm.deb
-Size: 7888
-MD5sum: 8f92b8d0875e1cf3db00ed34af176270
-SHA1: 38dc68f392ecadd296147f6ab8d62923034c1e4c
-SHA256: 9e3a2dae132d5eccd1bc3dd08594feb8aa3638e9069379c69f3e3dd33b6fac93
+Filename: ./debs/com.michael.suer_0.2.1_iphoneos-arm.deb
+Size: 7900
+MD5sum: b341895cebca84280e8050368d224365
+SHA1: 968216b378e2c4824c2e922b8a9a3d0d10da708d
+SHA256: 74790524ada2acf7917732052c82e2691624e020b513ceceef017b4bd3c42c97
 Section: Tweaks
 Description: Temporaily assume root priviledges but need not password.
 Author: halo_michael <yc992147156@me.com>
