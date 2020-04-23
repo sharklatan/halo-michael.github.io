@@ -29,18 +29,18 @@ Name: Network Magician
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.TimeMachine
-Version: 0.8.10
+Version: 0.8.11
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: coreutils, firmware (>= 10.3), preferenceloader
 Conflicts: com.michael.TimeMachineLite, com.yourepo.halo-michael.timemachineonios, com.yourepo.halo-michael.timemachineonioslite
 Replaces: com.michael.TimeMachineLite, com.yourepo.halo-michael.timemachineonios, com.yourepo.halo-michael.timemachineonioslite
 Provides: com.michael.TimeMachineLite, com.yourepo.halo-michael.timemachineonios, com.yourepo.halo-michael.timemachineonioslite
-Filename: ./debs/com.michael.TimeMachine_0.8.10_iphoneos-arm.deb
-Size: 78340
-MD5sum: 77ba205f9bb0e7a3c484c2126944f750
-SHA1: 54f9301328cef82f1fa992dfc578313fe0894279
-SHA256: 3b4367be0e9e1bfc6409ae02f435a300f2c554fae62c6c6ebecb5b534954d7f9
+Filename: ./debs/com.michael.TimeMachine_0.8.11_iphoneos-arm.deb
+Size: 79664
+MD5sum: 13a89e67010e53590b77db6bd259934d
+SHA1: c2633d5d7a648c3a1e46b90c5a29f9e08069ddee
+SHA256: 65c9543ac9f274c7d2dc08b756202f4ed30d0d1e1c8767e3819a337e973c4210
 Section: Tweaks
 Description: TimeMachine on iOS will creat a rootfs snapshot and a datafs snapshot at 2:00AM everyday;and delete the oldest snapshots when you have more than default 3(or other you set) snapshots.
  TimeMachine on iOS will creat a rootfs snapshot and a datafs snapshot at 2:00AM everyday;and delete the oldest snapshots when you have more than default 3(or other you set) snapshots.
@@ -459,15 +459,15 @@ Name: Resolution Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.restorefonts
-Version: 0.1.5
+Version: 0.1.6
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: coreutils, coreutils-bin, firmware (>= 11.0)
-Filename: ./debs/com.michael.restorefonts_0.1.5_iphoneos-arm.deb
-Size: 6360
-MD5sum: 27966a35f6d4891061ebb1c7c2ff17ae
-SHA1: 82eba191c3ce79988b81f5bec3b42356f92f2bfb
-SHA256: 9b3a503e4ad5358025365065fe304b0fa97905893d6670f631b29e38d527c03c
+Filename: ./debs/com.michael.restorefonts_0.1.6_iphoneos-arm.deb
+Size: 6576
+MD5sum: 75cdb4d99e4e8eeb5d98daf1217c2eb0
+SHA1: a79d7aab32db5aadbe508ecc4b04354e712578fa
+SHA256: fa80417a68eef1337c368a250f111d282d1f31ea47f19a711d537808525df1f5
 Section: Tweaks
 Description: Quickily restore orignal fonts from your system snapshot.
 Author: halo_michael <yc992147156@me.com>
